@@ -11,7 +11,7 @@
 		.container-fluid.big-bg
 			.row
 				/ main
-				.col-lg-10.col-md-10.col-sm-10.col-xs-10.col-lg-offset-2.col-md-offset-2.col-sm-offset-2.col-xs-offset-2.main.box
+				.col-lg-8.col-md-8.col-sm-8.col-xs-8.main.box
 					/ sidebar
 					.col-lg-2.col-md-2.col-sm-2.col-xs-2
 
@@ -29,17 +29,39 @@
 						/ head
 						.row
 							.col-lg-6.col-md-6.col-sm-6.col-xs-6.head
-								%h2.head_text html/css developer
+								%img.head-photo{'src'=>'./img/im.png'}
+								.head-box
+									%h3.head_text.content-text natalia kostikova
+									%h4.head_text html/css developer
+								
+						/ portfolio
+						.row
+							.col-lg-12.col-md-12.col-sm-12.col-xs-12.content-bg.portfolio
+								%img.avaible{'src'=>'./img/available.png'}
+								%h1.portfolio_head potfolio
+								%p.portfolio_text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum rerum architecto ipsam, officia excepturi dolore debitis necessitatibus aperiam quas et cupiditate eos, dolorum possimus sint facere, ullam mollitia. Quos, debitis!
 
-						/ portfolio text
-						.row
-							.col-lg-12.col-md-12.col-sm-12.col-xs-12
-						/ portfolio links
-						.row
-							.col-lg-12.col-md-12.col-sm-12.col-xs-12
-						/ indicators page
-						.row
-							.col-lg-12.col-md-12.col-sm-12.col-xs-12
-						/ footer
-						.row
-							.col-lg-12.col-md-12.col-sm-12.col-xs-12
+								/ icons
+								.porfolio_icon
+									%a.porfolio_icon-link{'href'=>'http://github.com/MynameNata/MynameNata.github.io/brush'}
+									%a.porfolio_icon-text{'href'=>'http://github.com/MynameNata/MynameNata.github.io/brush'} Brush
+
+								.porfolio_icon
+									%a.porfolio_icon-link{'href'=>'http://github.com/MynameNata/MynameNata.github.io/brush'}
+									%a.porfolio_icon-text{'href'=>'http://github.com/MynameNata/MynameNata.github.io/brush'} Brush
+
+								.porfolio_icon
+									%a.porfolio_icon-link{'href'=>'http://github.com/MynameNata/MynameNata.github.io/brush'}
+									%a.porfolio_icon-text{'href'=>'http://github.com/MynameNata/MynameNata.github.io/brush'} Brush
+
+								.porfolio_icon
+									%a.porfolio_icon-link{'href'=>'http://github.com/MynameNata/MynameNata.github.io/brush'}
+									%a.porfolio_icon-text{'href'=>'http://github.com/MynameNata/MynameNata.github.io/brush'} Brush
+
+								.porfolio_icon
+									%a.porfolio_icon-link{'href'=>'http://github.com/MynameNata/MynameNata.github.io/brush'}
+									%a.porfolio_icon-text{'href'=>'http://github.com/MynameNata/MynameNata.github.io/brush'} Brush
+
+								.porfolio_icon
+									%a.porfolio_icon-link{'href'=>'http://github.com/MynameNata/MynameNata.github.io/brush'}
+									%a.porfolio_icon-text{'href'=>'http://github.com/MynameNata/MynameNata.github.io/brush'} Brush
