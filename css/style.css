@@ -9,6 +9,9 @@ body {
 	-o--box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 }
+.bg-size {
+	background-size: 100%;
+}
 .big-bg {
 	width: 100%;
     height: 100%;
@@ -25,6 +28,51 @@ a:hover {
 /*main*/
 .main {
 	margin: 0 auto;
+	float: none !important;
+}
+/*sidebar*/
+.sidebar {
+	float: left;
+	padding: 101px 0 0 0 !important;
+}
+.sidebar-btn {
+	width: 98px;
+	height: 54px;
+	display: block;
+}
+.sidebar-btn:hover{
+	-moz-transform: translateX(-23px);
+    -ms-transform: translateX(-23px);
+    -webkit-transform: translateX(-23px);
+    -o-transform: translateX(-23px);
+    transform: translateX(-23px);
+
+    position: absolute;
+    transition: all 0.1s linear;
+    -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+    -o-transition: all 0.1s  linear;
+	width: 121px;
+	height: 54px;
+	display: block;
+}
+.btn-portfolio {
+	background: url(../img/portfolio-btn.png) no-repeat;
+}
+.btn-portfolio:hover {
+	background: url(../img/portfolio-hover.png);
+}
+.btn-about {
+	background: url(../img/home-btn.png) no-repeat;
+}
+.btn-about:hover{
+	background: url(../img/home-hover.png);
+}
+.btn-contact {
+	background: url(../img/contact-btn.png) no-repeat;
+}
+.btn-contact:hover {
+	background: url(../img/contact-hover.png);
 }
 /*content*/
 .content {

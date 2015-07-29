@@ -13,14 +13,13 @@
 				/ main
 				.col-lg-8.col-md-8.col-sm-8.col-xs-8.main.box
 					/ sidebar
-					.col-lg-2.col-md-2.col-sm-2.col-xs-2
-
+					.sidebar
 						/ portfolio
-						.col-lg-12.col-md-12.col-sm-12.col-xs-12
+						%button.sidebar-btn.btn-portfolio
 						/ contacts
-						.col-lg-12.col-md-12.col-sm-12.col-xs-12
+						%button.sidebar-btn.btn-about
 						/ about
-						.col-lg-12.col-md-12.col-sm-12.col-xs-12
+						%button.sidebar-btn.btn-contact
 
 
 					/ content
@@ -65,3 +64,11 @@
 								.porfolio_icon
 									%a.porfolio_icon-link{'href'=>'https://github.com/MynameNata/MynameNata.github.io/brush'}
 									%a.porfolio_icon-text{'href'=>'http://github.com/MynameNata/MynameNata.github.io/brush'} Brush
+								
+								/ botton-page
+								.btn-toolbar{'role'=>'toolbar'}
+									.btn-group
+										%a.btn 1
+									.btn-group
+										%a.btn 2
+
