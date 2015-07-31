@@ -15,9 +15,15 @@ body {
 .big-bg {
 	width: 100%;
     height: 100%;
-    background-size: 100%;
+    -webkit-background-size:cover !important; 
+	background-size: cover !important;
 	background: url(../img/big-bg.png) no-repeat;
 	padding: 7%;
+}
+.head-photo:hover,
+.head_text:hover,
+.porfolio_icon-link:hover{
+	opacity: 0.5;
 }
 a {
 	text-decoration: none;
@@ -82,17 +88,15 @@ a:hover {
 .content-text {
 	color: rgb(57,57,57);
 }
-.content-bg {
-	background: url(../img/content-bg.png) no-repeat;
-	background-size: 100%;
-}
+
 /*head*/
 .head {
 	height: 80px;
 	width: 100%;
 	padding: 20px;
 	background: url(../img/head-bg.png) no-repeat;
-	background-size: 100%;
+	-webkit-background-size:cover !important; 
+	background-size: cover !important;
 	border-radius:25px 25px 0 0;
 	-webkit-border-radius:25px 25px 0 0;
 	-o-border-radius:25px 25px 0 0;
@@ -109,6 +113,7 @@ a:hover {
 	display: inline-block;
 }
 .head-photo{
+	background: url(../img/im.png) no-repeat;
 	width: 50px;
 	height: 50px;
 	display: inline-block;
@@ -116,7 +121,7 @@ a:hover {
 	margin-left: 15px;
 }
 .head_text {
-	margin-top: 0;
+	margin: 0;
 	text-transform: capitalize;
 	font-size: 14pt;
 	font-weight: bold;
@@ -128,8 +133,10 @@ a:hover {
 	margin-right: -28px;
 }
 .portfolio {
-	padding: 0 25px 25px 25px !important;
-
+	background: url(../img/content-bg.png) no-repeat;
+	-webkit-background-size:cover !important; 
+	background-size: cover !important;
+	padding: 0 25px !important;
 	border-radius: 0 0 25px 25px;
 	-webkit-border-radius: 0 0 25px 25px;
 	-o-border-radius: 0 0 25px 25px;
@@ -145,6 +152,7 @@ a:hover {
 }
 .portfolio_text {
 	padding: 20px 0;
+	border-bottom: 1px solid grey;
 }
 /*icons*/
 .porfolio_icon {
@@ -156,7 +164,41 @@ a:hover {
 	display: block;
 	width: 200px;
 	height: 150px;
-	background: url(../img/icon-brush.png);
-	background-size: 100%;
+	background: url(../img/icon-brush.png) no-repeat;
+	-webkit-background-size:cover; 
+	background-size: cover;
 	border: 3px solid grey;
+	margin-top: 10px;
+}
+/*page-box*/
+.page-box {
+	padding: 20px 0;
+	text-align: center;
+	border-bottom: 1px solid grey;
+}
+.page {
+	margin: 0 3px;
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	background: #9c9c9c;
+	border-radius:15px;
+	-webkit-border-radius:15px;
+	-o-border-radius:15px;
+	-ms-border-radius:15px;
+}
+.page:hover {
+	background: #9e9b00;
+}
+.page:active {
+	background: white;
+}
+.page:visited {
+	background: white;
+}
+
+/*footer*/
+.footer{
+	text-align: center;
+	padding-bottom: 10px;
 }
