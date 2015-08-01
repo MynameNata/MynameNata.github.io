@@ -159,7 +159,12 @@ a:hover {
 	display: inline-block;
 	margin: 10px;
 }
-
+.porfolio_icon-text {
+	display: inline-block;
+	margin: 10px 0;
+	font-size: 10pt;
+	font-weight: bold;
+}
 .porfolio_icon-link {
 	display: block;
 	width: 200px;
