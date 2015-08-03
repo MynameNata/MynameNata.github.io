@@ -15,11 +15,11 @@
 					/ sidebar
 					.sidebar
 						/ portfolio
-						%button.sidebar-btn.btn-portfolio
-						/ contacts
-						%button.sidebar-btn.btn-about
+						%a.sidebar-btn.btn-portfolio{'href'=>'http://mynamenata.github.io','title'=>'Portfolio'}
 						/ about
-						%button.sidebar-btn.btn-contact
+						%a.sidebar-btn.btn-about{'href'=>'http://mynamenata.github.io','title'=>'About'}
+						/ contacts
+						%a.sidebar-btn.btn-contact{'href'=>'http://mynamenata.github.io','title'=>'Contacts'}
 
 
 					/ content
@@ -40,30 +40,34 @@
 							.col-lg-12.col-md-12.col-sm-12.col-xs-12.portfolio.box
 								%img.avaible{'src'=>'./img/available.png'}
 								%h1.portfolio_head potfolio
-								%p.portfolio_text Hi!
-								I can help you create a website!
-								%p.portfolio_text I'm using HTML5/CSS3, Bootstrap3, jQuery for Bootstrap3, sprites. I'm creting adaptive, responsive, blocks Web Design. WC3 Validation.
+								%p.portfolio_text Hi! I can help you create a website! 
+								%p.portfolio_text I'm using HTML5/CSS3, Bootstrap3, jQuery for Bootstrap3, sprites. I'm creating adaptive, responsive, blocks Web Design. WC3 Validation.
 								%p.portfolio_text Thank you for your time!
 
 								/ icons
 								.porfolio_icon
-									%a.porfolio_icon-link{'href'=>'http://mynamenata.github.io/brush/','title'=>'Brush'}
-									%a.porfolio_icon-text{'href'=>'http://mynamenata.github.io/brush/'} Brush - adaptive site
+									%a.porfolio_icon-link.brush{'href'=>'http://mynamenata.github.io/brush/','title'=>'Brush'}
+									%a.porfolio_icon-text{'href'=>'http://mynamenata.github.io/brush/'} Brush - adaptive website
+
 								.porfolio_icon
-									%a.porfolio_icon-link{'href'=>'http://mynamenata.github.io/brush/'}
-									%a.porfolio_icon-text{'href'=>'http://mynamenata.github.io/brush/'} Brush
+									%a.porfolio_icon-link.azartplay{'href'=>'http://mynamenata.github.io/azartplay/','title'=>'azartplay'}
+									%a.porfolio_icon-text{'href'=>'http://mynamenata.github.io/azartplay/'} Azartplay - block website
+
 								.porfolio_icon
-									%a.porfolio_icon-link{'href'=>'http://mynamenata.github.io/brush/'}
-									%a.porfolio_icon-text{'href'=>'http://mynamenata.github.io/brush/'} Brush
+									%a.porfolio_icon-link.standart{'href'=>'http://mynamenata.github.io/stsndart/','title'=>'standart'}
+									%a.porfolio_icon-text{'href'=>'http://mynamenata.github.io/brush/'} Standart
+
 								.porfolio_icon
-									%a.porfolio_icon-link{'href'=>'http://mynamenata.github.io/brush/'}
-									%a.porfolio_icon-text{'href'=>'http://mynamenata.github.io/brush/'} Brush
+									%a.porfolio_icon-link.andare{'href'=>'http://mynamenata.github.io/brush/','title'=>'andare'}
+									%a.porfolio_icon-text{'href'=>'http://mynamenata.github.io/andare/'} Andare - internet shop
+
 								.porfolio_icon
-									%a.porfolio_icon-link{'href'=>'http://mynamenata.github.io/brush/'}
-									%a.porfolio_icon-text{'href'=>'http://mynamenata.github.io/brush/'} Brush
+									%a.porfolio_icon-link.empire{'href'=>'http://mynamenata.github.io/brush/','title'=>'empire'}
+									%a.porfolio_icon-text{'href'=>'http://mynamenata.github.io/brush/'} Empire
+									
 								.porfolio_icon
-									%a.porfolio_icon-link{'href'=>'http://mynamenata.github.io/brush/'}
-									%a.porfolio_icon-text{'href'=>'http://mynamenata.github.io/brush/'} Brush
+									%a.porfolio_icon-link.adnetworks{'href'=>'http://mynamenata.github.io/brush/','title'=>'adnetworks'}
+									%a.porfolio_icon-text{'href'=>'http://mynamenata.github.io/brush/'} Adnetworks
 
 								/ page
 								.page-box
