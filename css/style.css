@@ -2,6 +2,7 @@ body {
 	min-height: 100%;
 	margin: 0;
 	padding: 0;
+	font: Arial, Helvetica, sans-serif !important;
 }
 .box {
 	box-sizing: border-box;
@@ -47,9 +48,9 @@ a:hover {
 	display: block;
 }
 .sidebar-btn:hover{
+
 	-moz-transform: translateX(-23px);
     -ms-transform: translateX(-23px);
-    -webkit-transform: translateX(-23px);
     -o-transform: translateX(-23px);
     transform: translateX(-23px);
 
@@ -151,7 +152,14 @@ a:hover {
 	display: inline-block;
 }
 .portfolio_text {
-	padding: 20px 0;
+	font-size: 11pt;
+	text-transform: capitalize;
+	font-weight: bold;
+	color: #343434;
+	text-align: justify;
+}
+.portfolio_text:last-of-type {
+	padding-bottom: 20px;
 	border-bottom: 1px solid grey;
 }
 /*icons*/
@@ -169,11 +177,29 @@ a:hover {
 	display: block;
 	width: 200px;
 	height: 150px;
-	background: url(../img/icon-brush.png) no-repeat;
 	-webkit-background-size:cover; 
 	background-size: cover;
 	border: 3px solid grey;
 	margin-top: 10px;
+}
+.brush {
+	background: url(../img/icon-brush.png) no-repeat;
+}
+.azartplay {
+	background: url(../img/aza.png) no-repeat;
+}
+.standart {
+	background: url(../img/standart.png) no-repeat;
+}
+.andare {
+	background: url(../img/andare.png) no-repeat;
+}
+.empire {
+	background: url(../img/empire.png) no-repeat;
+}
+.adnetworks {
+	background: url(../img/adnetworks.png) no-repeat;
+
 }
 /*page-box*/
 .page-box {
