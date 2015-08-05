@@ -1,0 +1,134 @@
+html, body {
+	width: 100%;
+	font-family: sans-serif;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+/*отступ по краям */
+.pad {
+	padding: 0 35px 0 35px;
+} 
+.big-pad {
+	padding: 35px;
+}
+/*шапка*/
+.header {
+	height: 110px;
+	background: black;
+} 
+/*логотип в шапке*/
+.header__logo {
+	display: inline-block;
+	height: 110px;
+	line-height: 130px;
+/*	text-align: center;*/
+}
+
+.box {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+}
+/*ссылки в шапке*/
+.header__for-link {
+	text-decoration: none;
+	padding: 5px 5px 0 5px;
+	margin: 7px;
+	list-style-type: none;
+	color: white;
+	font-size: 1.3em;
+	border-bottom: 1px solid rgb(77, 77, 77);
+}
+.header__menu {
+	padding: 0;
+	margin: 0;
+}
+.list-item {
+	display: inline-block;
+}
+
+.header__link-align {
+	height: 110px;
+	line-height: 110px;
+}
+
+/*поиск в шапке*/
+.header__search {
+	color: white;
+	padding: 5px;
+	height: 30px;
+	width: 100px;
+	display: inline-block;
+	background: rgb(38, 38, 38);
+	border: none;
+	-webkit-appearance: none;
+	outline: none;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-ms-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-o-border-radius: 20px;
+}
+
+.header__search-pic{
+	position: relative;
+	left: -29px;
+	padding: 5px 0;
+	display: inline-block;
+	border: none;
+	height: 19px;
+	width: 19px;
+	background: url(../img/search.png) no-repeat 50% 50%;
+}
+.header__search-align {
+	text-align: right;
+	height: 110px;
+	line-height: 110px;
+
+}
+
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -135px;
+}
+
+.empty {
+	height: 135px;
+}
+
+/*подвал*/
+.footer {
+	padding: 30px;
+	height: 135px;
+	background: black;	
+} 
+
+.footer__contacts {
+	text-decoration: none;
+	margin: 5px;
+	color: white;
+	font-size: 1.0em;
+	font-weight: bold;
+}
+.button {
+	width: 215px;
+	height: 45px;
+	background: url(../img/bgr-button.png);
+	border: none;
+	color: white;
+	font-size: 1.1em;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-o-border-radius: 10px;
+}
+.brd-contacts {
+	border-bottom: 1px solid rgb(77,  77, 77);
+}

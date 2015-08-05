@@ -1,0 +1,119 @@
+.L-row
+	.L-cell-100.top-contacts
+		%adredss.top-contacts__phone 8 800 775 09 43 (бесплатно в России)
+		%a.top-contacts__coll{href: ""} Закажите звонок
+		%a.top-contacts__mail{href: "", title: "info@standart.bz"} info@standart.bz
+
+.L-row
+	.L-cell-100
+		.banner
+			.banner__red
+				%h1.banner__head Чак Норрис. Иконы. Самолет.
+				%p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua.
+				%button.button Закажите лендинг
+
+.L-row.big-pad
+	%a.header-link{href: "", title: "Портфолио"} Портфолио 
+	%span.header-link__text всего 234 кейсов
+.L-row.pad.bottom
+	=render "_portfolio.html.haml", :locals => {date: "21 апреля", link: "Мега", text: "Торговый центр", photo: "img/mega.png"}
+
+	=render "_portfolio.html.haml", :locals => {date: "12 апреля", link: "Рапидо", text: "Игровая система", photo: "img/rapido.png"} 
+
+	=render "_portfolio.html.haml", :locals => {date: "20 апреля", link: "РибинскСтрой", text: "Продажа улуктро-оборудования", photo: "img/electro.png"}
+
+	=render "_portfolio.html.haml", :locals => {date: "", link: "",text: "Здесь мог быть ваш проект", photo: "img/vasha.png"}
+
+	=render "_portfolio.html.haml", :locals => {date: "", link: "",text: "Здесь мог быть ваш проект", photo: "img/vasha.png"}
+
+.L-row.big-pad
+	.L-cell-60.company
+		%a.header-link{href: "", title: "Компания"} Компания
+		%span.header-link__text работаем с 2011 года
+		%a.block__link.office{href: "", title: "Наш офис"} Наш офис
+		%p Lorem ipsum dolor sit amet, consecteturadipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+	.L-cell-40.services
+		%a.header-link{href: "", title: "Услуги"} Услуги
+
+		=render "_servis.html.haml", :locals => {title: "Заставки при загрузке приложений", text: "Заставки при загрузке приложений"}
+
+		=render "_servis.html.haml", :locals => {title: "О склонении тпонимов", text: "О склонении тпонимов"}
+
+		=render "_servis.html.haml", :locals => {title: "Заставки при загрузке приложений", text: "А и Б сидели на трубе тестирование"}
+
+		=render "_servis.html.haml", :locals => {title: "О наличии у человека", text: "О наличии у человека"}
+
+		=render "_servis.html.haml", :locals => {title: "О склонении топонимов", text: "О склонении топонимов"}
+
+.L-row.big-pad.command-bgr
+	%a.header-link{href: "", title: "Команда"} Команда 
+	%a.block__link.jobs{href: "", title: "Вакансии"} Вакансии
+.L-row.pad.command-bgr
+	=render "_command.html.haml", :locals => {link: "Женя Харитонова", text: "дизайнер", photo: "img/jenia.png"}
+	=render "_command.html.haml", :locals => {link: "Женя Харитонова", text: "дизайнер", photo: "img/jenia.png"}
+	=render "_command.html.haml", :locals => {link: "Женя Харитонова", text: "дизайнер", photo: "img/jenia.png"}
+	=render "_command.html.haml", :locals => {link: "Женя Харитонова", text: "дизайнер", photo: "img/jenia.png"}
+	=render "_command.html.haml", :locals => {link: "Женя Харитонова", text: "дизайнер", photo: "img/jenia.png"}
+	=render "_command.html.haml", :locals => {link: "Женя Харитонова", text: "дизайнер", photo: "img/jenia.png"}
+	=render "_command.html.haml", :locals => {link: "Женя Харитонова", text: "дизайнер", photo: "img/jenia.png"}
+	=render "_command.html.haml", :locals => {link: "Женя Харитонова", text: "дизайнер", photo: "img/jenia.png"}
+	=render "_command.html.haml", :locals => {link: "Женя Харитонова", text: "дизайнер", photo: "img/jenia.png"}
+
+
+.L-row
+	.L-cell-100
+		.banner
+			.banner__red-next.picture
+				.L-cell-40
+				.L-cell-60.right
+					%h1.banner__head Специальная акция
+					%p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+					%button.button Закажите лендинг
+					%span или 
+					%a.banner-link{href: "", title: "обратный звонок"} обратный звонок
+.L-row.big-pad
+	.L-cell-60
+		%a.header-link{href: "", title: "Блог"} Блог
+		%span.header-link__text опубликовано уже 234 мысли
+
+		=render "_blog.html.haml", :locals => {title: "Я повернут на общественном транспорте, знаках и указателях", text: "Я повернут на общественном транспорте, знаках и указателях", date: "12 апреля"}
+
+		=render "_blog.html.haml", :locals => {title: "Заставки при загрузке приложений", text: "Заставки при загрузке приложений", date: "20 апреля"}
+
+		=render "_blog.html.haml", :locals => {title: "О склонении топонимов (в Кемерове под Ивановом)", text: "Заставки при загрузке приложенийО склонении топонимов (в Кемерове под Ивановом", date: "24 апреля"}
+
+		=render "_blog.html.haml", :locals => {title: "О наличии у человека носа", text: "О наличии у человека носа", date: "26 апреля"}
+
+		=render "_blog.html.haml", :locals => {title: "О наличии у человека носа", text: "О наличии у человека носа", date: "26 апреля"}
+
+		=render "_blog.html.haml", :locals => {title: "О наличии у человека носа", text: "О наличии у человека носа", date: "26 апреля"}
+
+	.L-cell-40
+		%a.header-link{href: "", title: "До и после"} 
+			До и 
+			%strong.cusiv после
+		%img.down{src: "img/do-i-posle.png"}
+
+.L-row.big-pad.command-bgr
+	%a.header-link{href: "", title: "Знания"} Знания
+	%span.header-link__text
+		%span.header-link__text ―
+		орудие, а не цель.
+		%strong.cusiv Л. Толстой
+
+.L-row.command-bgr.knowledge
+	.L-cell-33
+		%a.knowledge-header{href: "", title: "Дизайн"} Дизайн
+	.L-cell-33
+		%a.knowledge-header{href: "", title: "Лендинг пейдж"} Лендинг пейдж
+	.L-cell-33
+		%a.knowledge-header{href: "", title: "Проектирование"} Проектирование
+
+.L-row
+	%img{src: "img/map.png"}
+	

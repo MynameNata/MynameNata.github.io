@@ -1,0 +1,108 @@
+
+.box {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+}
+/*mobile*/
+
+@media screen and (max-width: 640px) {
+	.big-container {
+		width: 640px;
+	}
+	.logo {
+		float: left;
+		display: inline-block;
+		width: 208px;
+		height: 52px;
+		background: url(./img/logo-mob.png); 
+		background-repeat: no-repeat;
+	}
+	.head {
+		padding: 18px 27px 0 27px;
+		height: 87px;
+	}
+	.head-nav {
+		display: none;
+		height: auto;
+	}
+
+	.head-link,
+	.head-mob-menu {
+		display: block;
+		width: 100%;
+		position: relative;
+	}
+
+	.head-link,
+	.head-mob-menu:after {
+		content: " ";
+		width: 58px;
+		height: 44px;
+		background: url(./img/menu-mob.png);
+		display: inline-block;
+		position: absolute;
+		right: 5px;
+		top: 8px;
+	}
+
+	.carusel {
+		padding: 18px 27px 0 27px;
+		height: 245px;
+		background: url(./img/car-bg-mob.png);
+		background-repeat: no-repeat;
+	}
+	.carusel-button,
+	.left-btn,
+	.right-btn {
+		display: none;
+	}
+
+	.carusel-icon {
+		display: inline-block;
+		width: 177px;
+		height: 223px;
+		background: url(./img/iphone-mob.png);
+		background-repeat: no-repeat;
+	}
+	.carusel-right {
+		width: 50%;
+		text-align: left;
+		float: right;
+		padding-top: 0;
+		
+	}
+	.carusel-bigtext{
+		font-size: 25px;
+		color: rgb(244, 246, 246);
+
+	}
+	.carusel-smalltext {
+		font-size: 15px;
+		color: rgb(244, 246, 246);
+	}
+	.carusel-btn {
+		text-align: center;
+		display: inline-block;
+		width: 237px;
+		height: 53px;
+		background: rgb(80, 148, 242);
+		border: none;
+		color: white;
+		font-family: sans-serif;
+		font-size:  28px;
+		
+		vertical-align: baseline;
+
+	}
+	.carusel-btn:before{
+		vertical-align: baseline;
+		content: url(./img/chackbox.png);
+		display: inline-block;
+		margin-right: 5px;
+		width: 23px;
+		height: 23px;
+	}
+}

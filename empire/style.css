@@ -1,0 +1,154 @@
+
+.logo {
+	margin: 34px 0 34px 0;
+	font-size: 1.4em;
+	font-family: sans-serif;
+	text-align: center;
+}
+.share {
+	width: 100%;
+	display: inline-block;
+	margin-top: 0;
+	padding: 34px 0 10px 0;
+	text-align: center;
+	color: rgb(123, 123, 123);
+	font-size: 0.6em;
+	font-style: italic;
+	text-decoration: none;
+}
+.share:after {
+	display: inline-block;
+}
+.bg-home {
+	background: rgb(98, 168, 204); 
+	color: rgb(224, 255, 255);
+}
+.bg-first-row {
+	background: rgb(241, 241, 239);
+}
+
+
+.clock {
+	box-sizing: border-box;
+	padding-left: 60px;
+	background-color: rgb(233, 233, 233);
+	background-image: url(img/time.png);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.clock_bg {
+	float: right;
+	display: inline-block;
+}
+.clock__header {
+	font-size: 1.7em;
+}
+.clock__next-header {
+	font-weight: 200;
+	font-size: 1.2em;
+}
+.litle-text {
+	width: 70%;
+	color: rgb(145, 147, 146);
+	font-size: 0.6em;
+}
+.clock-btn {
+	width: 80px;
+	height: 40px;
+	font-size: 0.6em;
+	border: none;
+	margin-top: 30px;
+	margin-left: 300px;
+	background: rgb(75, 77, 76);
+	color: rgb(212, 212, 212);
+}
+
+.join-us {
+	box-sizing: border-box;
+	border-bottom: 1px solid rgb(166, 168, 167);
+	padding: 10px;
+	text-align: center;
+	background: rgb(246, 246, 246);
+}
+.big-text {
+	margin: 0; 
+	font-weight: 300;
+	font-size: 1.5em;
+}
+.join-us__text {
+	margin: 5px;
+	font-size: 1.3em;
+	color: rgb(145, 147, 146);
+}
+.join-us__btn {
+	border: none;
+	font-weight: bolder;
+	width: 80px;
+	height: 30px;
+	font-size: 0.7em;
+ 	background: rgb(71, 146, 188);
+ 	color: rgb(213, 255, 255);
+ }
+
+.offer {
+	box-sizing: border-box;
+	border-bottom: 1px solid rgb(166, 168, 167);
+	padding: 10px;
+	text-align: center;
+}
+
+.colums {
+	padding: 10px;
+}
+.colums__hd {
+	margin-bottom: 15px;
+	font-weight: 300;
+	font-size: 1.2em;
+}
+.colums__link {
+	text-decoration: none;
+	color: rgb(111, 153, 165);
+	font-size: 0.6em;
+	margin: 10px 0 35px 0;
+}
+
+.colums__link:before {
+	content: "";
+	display: inline-block;
+	background-color: red;
+	width: 15px;
+	height: 15px;
+	margin-right: 3px;
+}
+
+.blue {
+	padding: 30px 20px;
+	text-align: center;
+	margin: auto;
+	width: 760px;
+	box-xsizing: border-box;
+	background: rgb(100, 168, 205);
+}
+.blue-hd {
+	margin: 10px;
+	color: rgb(248, 254, 250);
+	font-size: 1.8em;
+}
+.blue__hd-text {
+	margin: 0;
+	color: rgb(234, 255, 255);
+	font-size: 1.6em;
+}
+.blue__text {
+	font-size: 0.8em;
+	color: rgb(228, 255, 255);
+}
+.blue-btn {
+	width: 80px;
+	height: 40px;
+	background: rgb(248, 249, 244);
+	color: black;
+	font-size: 0.7em;
+	font-weight: bold;
+	border: none;
+}

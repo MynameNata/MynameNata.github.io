@@ -1,0 +1,426 @@
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background: white;
+}
+.font {
+	font-family: "Open Sans" sans-serif;
+}
+.box {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+}
+.logo {
+	display: inline-block;
+}
+.head-nav{
+		margin: 0;
+		list-style: none;
+		float: right;
+		display: inline-block;
+		text-align: center;
+	}
+.head-item{
+	display: inline;
+}
+.head-link {
+	text-decoration: none;
+	color: rgb(108, 108, 108);
+	text-transform: capitalize;
+}
+.carusel-block {
+	display: inline-block;
+	vertical-align: middle;
+}
+.carusel-right {
+	width: 50%;
+	float: right;
+}
+.carusel-text {
+	color: rgb(244, 246, 246);
+}
+.carusel-btn {
+	display: inline-block;
+	background: rgb(80, 148, 242);
+	border: none;
+	color: white;
+	font-family: sans-serif;
+	vertical-align: sub;
+}
+.carusel-btn:before{
+	vertical-align: baseline;
+	display: inline-block;
+}
+
+.content-link {
+	text-decoration: none;
+	color: rgb(115, 169, 245);
+}
+.content-text {
+	color:  rgb(159, 159, 159);
+}
+.shop {
+	display: inline-block;
+	width: 49%;
+}
+.shop-text {
+	color: rgb(111, 113, 115);
+}
+.shop-description-text {
+	color: rgb(111, 113, 115);
+}
+.footer {
+	border-top: 1px solid rgb(111, 113, 115);
+}
+.content
+.content-box
+.content-wrap {
+	height: 100%;
+}
+.sprite {
+	vertical-align: middle;
+	display: inline-block;
+}
+.sprite {
+		background: url(./img/sprite.png) no-repeat;
+	}
+	.youtube {background-position: -247px 0; width: 35px; height: 35px;}
+	.twetter {background-position: -289px -39px; width: 35px; height: 35px;}
+	.google {background-position: 0 -113px; width: 35px; height: 35px;}
+	.w3 {background-position: -248px -151px; width: 35px; height: 35px;}
+
+@media screen and (min-width: 640px){
+	.container {
+		height: 100%;
+		width: 1000px;
+		margin: 0 auto;
+	}
+	.zub {
+		background: url(./img/zub-bg.png);
+		margin: -8px auto 0 auto;
+	}
+	.head {
+		height: 81px;
+	}
+	.logo {
+		margin: 21px 0;
+		width: 178px;
+		height: 44px;
+		background: url(./img/logo.png); 
+	}
+	.head-nav{
+		padding-top: 38px;
+	}
+	.head-item{
+		padding-bottom: 15px;
+	}
+
+	.head-link {
+		font-size: 20px;
+		margin: 0 16px 20px 16px;
+	}
+	.head-item:hover {
+		border-bottom: 3px solid rgb(80, 148, 242);
+	}
+
+	.carusel-block {
+		margin: 0;
+		width: 1000px;
+	}
+	.carusel-button {
+		border: none;
+		display: inline-block;
+		vertical-align: middle;
+		width: 25px;
+		height: 63px;
+	}
+	.left-btn {
+		outline: none;
+		margin-left: 96px;
+		background: url(./img/left-btn.png);
+	}
+	.right-btn {
+		outline: none;
+		margin-right: 96px;
+		background: url(./img/right-btn.png);
+	}
+	.big-container {
+		width: 1250px;
+		margin: 0 auto;
+	}
+	.carusel {
+		height: 485px;
+		background: url(./img/car-bg.png);
+		background-repeat: no-repeat;
+	}
+	.carusel-right {
+		padding-top: 130px;
+	}
+	.carusel-icon {
+		display: inline-block;
+		width: 345px;
+		height: 436px;
+		background: url(./img/iphone.png);
+		margin: 35px 35px 0 35px;
+	}
+	
+	.carusel-bigtext{
+		font-size: 30px;
+
+	}
+	.carusel-smalltext {
+		font-size: 20px;
+	}
+	.carusel-btn {
+		width: 173px;
+		height: 40px;
+		margin-top: 15px; 
+		font:  21px arial;
+		border-radius: 3px;
+		-webkit-border-radius: 3px;
+		-ms-border-radius: 3px;
+		-moz-border-radius: 3px;
+		-o-border-radius:3px;
+		vertical-align: baseline;
+	}
+	.carusel-btn:before{
+		content: url(./img/chackbox.png);
+		margin-right: 5px;
+		width: 23px;
+		height: 23px;
+	}
+
+	.content {
+		text-align: center;
+		width: 33%;
+		display: inline-block;
+	}
+	.content-box {
+		text-align: center;
+		display: inline-block;
+		padding: 60px 0;
+	}
+	.content-icon {
+		margin: 10px auto 17px auto;
+		width: 186px;
+		height: 186px;
+	}
+	.icon1 {
+		background: url(./img/content-pic1.png);
+	}
+	.icon2 {
+		background: url(./img/content-pic2.png);
+	}
+	.icon3 {
+		background: url(./img/content-pic3.png);
+	}
+	.content-link {
+		font-size: 20px;
+	}
+	.content-text {
+		font-size: 14px;
+	}
+	.shop {
+		height: 420px;
+	}
+
+	.shop-text {
+		font-size: 42px;
+	}
+	
+	.shop-smalltext {
+		font-size: 15px;
+	}
+	.shop-icon {
+		display: inline-block;
+		width: 371px;
+		height: 279px;
+		background: url(./img/shop.png);
+	}
+
+
+	.footer {
+		padding-top: 10px;
+		bottom: 0;
+		margin: auto;
+		width: 1250px;
+		height: 90px;
+	}
+	
+}
+
+
+
+@media screen and (max-width: 640px) {
+	.big-container {
+		width: 640px;
+	}
+	.logo {
+		display: inline-block;
+		width: 208px;
+		height: 52px;
+		background: url(./img/logo-mob.png); 
+		background-repeat: no-repeat;
+	}
+	.head {
+		padding: 18px 27px 0 27px;
+		height: 87px;
+	}
+	.head-nav {
+		display: none;
+		height: auto;
+	}
+
+	.head-link,
+	.head-mob-menu {
+		display: block;
+		width: 100%;
+	}
+
+	.head-link,
+	.head-mob-menu:after {
+		content: " ";
+		width: 58px;
+		height: 44px;
+		background: url(./img/menu-mob.png);
+		display: inline-block;
+		position: absolute;
+		right: 27px;
+		top: 23px;
+	}
+	.carusel-block {
+		width: 590px;
+	}
+	.carusel {
+		padding: 18px 27px 0 27px;
+		height: 245px;
+		background: url(./img/car-bg-mob.png);
+		background-repeat: no-repeat;
+	}
+	.carusel-button,
+	.left-btn,
+	.right-btn {
+		display: none;
+	}
+	
+	.carusel-icon {
+		display: inline-block;
+		width: 177px;
+		height: 223px;
+		background: url(./img/iphone-mob.png);
+		background-repeat: no-repeat;
+	}
+	.carusel-right {
+		padding-top: 0;
+		
+	}
+	.carusel-bigtext {
+		font-size: 27px;
+		margin: 0;
+	}
+	.carusel-smalltext {
+		font-size: 20px;
+	}
+	.carusel-btn {
+		display: inline-block;
+		vertical-align: sub;
+		margin-top: 5px;
+		width: 236px;
+		height: 52px;
+		font-size: 31px;
+	}
+	.carusel-btn:before{
+		display: inline-block;
+		vertical-align: sub;
+		content: url(./img/chackbox-mob.png);
+		margin-right: 15px;
+		width: 23px;
+		height: 23px;
+	}
+	.content {
+		padding: 20px 0;
+		height: 100%;
+		border-bottom: 1px solid rgb(204, 204, 204);
+	}
+	.content-box {
+		width: 80%;
+		margin: 0 auto;
+		display: block;
+		padding: 0;
+	}
+	.content-icon {
+		display: inline-block;
+		margin: 0;
+	}
+	.icon1 {
+		width: 137px;
+		height: 136px;
+		background: url(./img/content-pic1-mob.png);
+	}
+	.icon2 {
+		width: 138px;
+		height: 139px;
+		background: url(./img/content-pic2-mob.png);
+	}
+	.icon3 {
+		width: 147px;
+		height: 147px;
+		background: url(./img/content-pic3-mob.png);
+	}
+	.content-wrap {
+		display: inline-block;
+		float: right;
+		width: 69%;
+	}
+	.content-link {
+		font-size: 34px;
+	}
+	.content-text {
+		display: inline-block;
+		margin: 0;
+		font-size: 19px;
+	}
+	.container {
+		width: 100%;
+		margin: 0;
+	}
+
+	.shop {
+		width: 100%;
+	}
+
+	.shop-text {
+		font-size: 42px;
+		font-weight: bold;
+		text-align: center;
+	}
+	
+	.shop-smalltext {
+		padding: 0 70px;
+		font-size: 17px;
+		line-height: 2;
+		color: rgb(181, 181, 181);
+	}
+	.shop-icon {
+		margin: 0 auto;
+		display: block;
+		width: 215px;
+		height: 162px;
+		background: url(./img/shop-mob.png);
+		background-repeat: no-repeat;
+	}
+	.shop-description-text {
+		color: rgb(111, 113, 115);
+		padding: 0 70px;
+		font-size: 34px;
+	}
+	.footer {
+		padding: 20px 70px;
+		width: 100%;
+		height: 84px;
+	}
+}

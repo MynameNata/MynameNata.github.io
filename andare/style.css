@@ -1,0 +1,258 @@
+/* todo: переименовать, бордер*/
+
+body {
+	font-family: sans-serif;
+}
+.brd-cont {
+	border: 1px solid rgb(227, 223, 224);
+	box-sizing: border-box;
+}
+.pad {
+	box-sizing: border-box;
+	padding: 0 10px 0 10px;
+}
+.hd {
+	text-align: center;
+	box-sizing: border-box;
+}
+.big-hd-logo {
+	margin: 40px 0 0 0; 
+	display: inline-block;
+}
+.hd-logo {
+	text-align: center;
+	margin: 30px 0 0 0; 
+	display: inline-block;
+}
+.hd-text {
+	text-align: center;
+	font-size: 0.7em;
+	color: rgb(101, 101, 101);
+	margin: 0;
+	margin-bottom: 10px;
+}
+.hd-border {
+	border-bottom: 2px solid black;
+}
+
+
+.menu {
+	padding: 5px;
+	margin: 3px 0 20px 0;
+	background: black;
+	text-align: center;
+}
+.menu__link {
+	color: white;
+	text-decoration: none;
+}
+.selected {
+	background: rgb(236, 66, 49);
+}
+.bg-red {
+	margin: auto;
+	width: 500px;
+	background: rgb(236, 66, 49);	
+}
+.bg-red__text {
+	padding: 5px;
+	margin: 0;
+	font-size: 1.1em;
+	font-weight: 200;
+	color: white;
+	text-align: center;
+}
+.border-for-red {
+	padding-bottom: 15px;	
+}
+.dashed-border {
+	padding: 10px 0 10px 0;
+	border-bottom: 1px dashed grey;	
+}
+
+.letter {
+	padding: 10px;
+}
+.letter__text {
+	text-align: center;
+}
+
+.caps-text {
+	text-transform: uppercase;
+}
+.text-cursiv {
+	font-weight: bolder;
+	font-style: italic;
+}
+.icon {
+	display: inline-block;
+	text-align: center;
+	margin: 30px 0;
+}
+
+
+.shoes {
+	display: inline-block;
+	box-sizing: border-box;
+	margin: 10px;
+	text-align: center;
+	width: 185px;
+	height: 295px;
+	border: 1px solid rgb(193, 193, 193);
+}
+.shoes__photo {
+	margin-bottom: 20px;
+	display: inline-block;
+	border-bottom: 1px dashed rgb(193, 193, 193);
+}
+.shoes__link {
+	color: black;
+	font-size: 1.1em;
+}
+.shoes-text {
+	display: inline-block;
+	color: rgb(113, 113, 113);
+	font-size: 0.9em;
+	font-style: italic;
+}
+.shoes__price {
+	font-size: 0.7em;
+	text-align: center;
+	box-sizing: border-box;
+	height: 35px;
+	margin-top: 16px;
+	float: left;
+	width: 97px;
+	color: white;
+	background: black;
+	padding: 4px;
+	text-align: center;
+	display: inline-block;
+}
+.shoes__price__bold-price {
+	font-size: 1.3em;
+}
+.shoes__bue {
+	box-sizing: border-box;
+	height: 35px;
+	text-align: center;
+	padding: 3px;
+	margin-top: 16px;
+	width: 85px;
+	float: right;
+	background: rgb(242, 67, 50);	
+}
+.bue {
+	color:  white; 
+}
+.align {
+	text-align: center;
+}
+
+
+.hd-size {
+	text-align: center;
+	padding: 15px;
+	font-size: 1.1em;
+	text-align: center;
+	display: inline-block;
+}
+.size-shoes {
+	padding: 5px;
+	font-size: 0.9em;
+	text-align: center;
+	display: inline-block;
+	font-weight: bolder;
+	margin: 0;
+}
+.size {
+	text-align: center;
+	padding: 3px; 
+	width: 30px;
+	height: 25px;
+	box-sizing: border-box;
+	background: rgb(255, 122, 3);
+	
+}
+.size-numb {
+	color: white;
+	font-size: 1.1em;
+	text-decoration: none;
+}
+.tbl-size {
+	vertical-align: middle;
+}
+.pad-size {
+	padding-left: 15px;
+}
+
+.brd-grey {
+	margin: 20px 0;
+	border: 1px solid grey;
+}
+.alignment {
+	box-sizing: border-box;
+	padding: 10px;
+	text-align: center;
+}
+.brd-dash {
+	border-top: none;
+	border-bottom: none;
+	border-left:1px dashed grey;
+	border-right:1px dashed grey;
+}
+
+.socnet-text {
+	color: rgb(174, 174, 174);
+	font-size: 1.3em;
+}
+.socnet-link1 {
+	margin: 5px;
+	width: 116px;
+	height: 37px;
+	background: url(img/fb.png);
+}
+.socnet-link2 {
+	width: 116px;
+	height: 37px;
+	background: url(img/vk.png);
+}
+.link-brd {
+	border: none;
+}
+
+.cont-link {
+	margin: 0;
+	padding: 0;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: rgb(233,91,81);
+}
+.cont-text {
+	color: rgb(63,63,63);
+	padding: 0;
+	font-size: 1.0em;
+	font-weight: bold;
+	margin: 0;
+}
+.cont-number {
+	font-size: 1.5em;
+}
+.grey-text {
+	font-weight: bold;
+	color: rgb(174, 174, 174);
+	font-size: 0.9em;
+	text-decoration: none;
+}
+.footer {
+	background: black;
+	padding: 10px;
+	text-align: center;
+}	
+.footer-link{
+	font-weight: bold;
+	color: rgb(244, 244, 244);
+}
+.socnet-link {
+	text-decoration: none;
+}

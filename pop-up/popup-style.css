@@ -1,0 +1,125 @@
+.content {
+	box-sizing:border-box;
+	background: url(img/background-pop-up.png);
+	padding: 10px;
+	margin: auto;
+	border: 1px solid grey;
+	width: 635px;
+	height: 680px;
+	font-family: sans-serif;
+}
+.content__close-button {
+	width: 25px;
+	height: 25px;
+	border-radius: 10px;
+	float: right;
+	background: rgb(163, 205, 31);
+	font-size: 1.0em;
+	font-weight: 700;
+}
+.content__header {
+	padding: 30px 10px 10px 30px;
+	color: rgb(66, 66, 66);
+	margin: 0 0 15px 0; 
+}
+.content__row__cell-2 {
+	width: 50%;
+	float: left;
+	overflow: hidden;
+}
+.tel {
+	margin: 0 0 5px 30px;
+}
+.city {
+	margin: 0 0 5px 30px;
+}
+.login {
+	margin: 0 0 0 30px;
+}
+.pass {
+	margin: 0 0 0 30px;
+}
+.mail {
+	margin: 0 0 0 30px;
+}
+.content__cell-2__label__for-data {
+	margin: 0 0 0 30px;
+	display: block;
+	margin-bottom: 10px;
+	font-size: 0.9em;
+	font-weight: bold;
+	color: rgb(66, 66, 66);
+}
+.content__cell-1__input {
+	padding: 5px;
+	width: 220px;
+	height: 40px;
+	border: 1px solid rgb(188, 188, 188);
+}
+.content__cell-1__label {
+	display: block;
+	margin-bottom: 10px;
+	font-size: 0.9em;
+	font-weight: bold;
+	color: rgb(66, 66, 66);
+} 
+.content__cell-2__input-text {
+	font-size: 0.7em;
+	color: rgb(188, 188, 188);
+	display: block;
+	text-align: left;
+}
+.content__cell-2__label {
+
+}
+.data {
+	margin: 0 0 5px 30px;
+	float: left;
+	overflow: hidden;
+}
+.content__cell-2__input-data {
+	width: 40px;
+	height: 40px;
+	padding: 5px;
+	border: 1px solid rgb(188, 188, 188);	
+}
+.months {
+	float: left;
+	margin: 0 10px;
+}
+.content__cell-2__input-months {
+	padding: 5px;
+	width: 100px;
+	height: 40px;
+	border: 1px solid rgb(188, 188, 188);
+}
+.content__cell-2__input-year {
+	padding: 5px;
+	width: 45px;
+	height: 40px;
+	border: 1px solid rgb(188, 188, 188);
+}
+.color-link {
+	color: rgb(122, 179, 23);
+}
+.content__batton {
+	font-weight: 600;
+	background: url(img/background-button.png);
+	color: white;
+	width: 163px;
+	height: 40px;
+	border-radius: 5px;
+	margin: 25px 10px 20px 30px;
+}
+.list-item {
+	display: inline-block;
+}
+.list-item__img {
+	padding: 0 0 10px 30px;
+	width: 45px;
+	height: 50px;
+}
+.content-ul {
+	padding: 0;
+	margin: 0; 
+}

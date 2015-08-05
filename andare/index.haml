@@ -1,0 +1,132 @@
+!!!
+%head
+	%title Andare
+	%meta{charset: "utf-8"}
+	%link{rel: "stylesheet",href:"style.css"}
+	%link{rel: "stylesheet",href:"layout.css"}
+%body
+	.L-content-650.brd-cont
+		.L-row.hd-border
+			.L-cell-100.pad
+				.L-cell-25.hd
+					%img.big-hd-logo{src: "img/hd-logo.png"}
+				.L-cell-25.hd
+					%img.hd-logo{src: "img/italy.png"}
+					%p.hd-text Сделано в Италии
+				.L-cell-25.hd
+					%img.hd-logo{src: "img/dostavka.png"}
+					%p.hd-text Быстрая доставка по всей России
+				.L-cell-25.hd
+					%img.hd-logo{src: "img/shops.png"}
+					%p.hd-text Сеть магазинов в Москве
+
+		.L-row
+			.L-cell-25.menu
+				%a.menu__link{href: ""} Обувь для женщин
+			.L-cell-25.menu.selected
+				%a.menu__link{href: ""} Сумки для женщин
+			.L-cell-25.menu
+				%a.menu__link{href: ""} Обувь для мужчин
+			.L-cell-25.menu
+				%a.menu__link{href: ""} Сумки для мужчин
+
+		.L-row.border-for-red.dashed-border
+			.L-cell-100.bg-red.pad
+				%h1.bg-red__text Встречаем весну!
+				%h1.bg-red__text Новая коллекция осень-зима 2013-2014.
+		.L-row
+			.L-cell-100.pad.letter.dashed-border
+				%p.letter__text Здравствуйте, (имя)!
+				%p.letter__text 
+					Магазин
+					%strong.caps-text andare
+					рад сообщить о получении нововй коллекции весна-осеь 2013-2014!
+				%p.letter__text Новое поступление женской обуви!
+				%p.letter__text
+					%strong.caps-text antonio barbato - 
+					коллекция элегантной и стильной обуви!
+				%p.letter__text
+					%strong.caps-text alberto fermani - 
+					комфорт и европейская обувь,
+				%p.letter__text
+					%strong.caps-text dgm - 
+					серия эффуктной молодежной обуви для осени,
+				%p.letter__text
+					%strong.caps-text joyks - 
+					демократичная обувь для активных и жизнерадостных людей,
+				%p.letter__text
+					%strong.caps-text donna soft - 
+					классическая коллкция для женщин, ценящих удобство и итальянское качество!
+				%p.letter__text.text-cursiv Желаем приятного шопинга!
+
+		.L-row
+			.L-cell-100.icon
+				%img{src: "img/photo2.png"}
+		.L-row
+			.L-cell-100.align.dashed-border
+				- 6.times
+				=render 'c:/marla/andare/shoes.haml'
+
+		.L-row
+			.L-cell-100.pad.dashed-border.align
+				.L-cell-35.tbl-size
+					%strong.hd-size Выберите ваш размер:
+				.L-cell-20.tbl-size
+					%p.size-shoes Женская обувь:
+					%p.size-shoes  Мужская обувь:
+				.L-cell-45.tbl-size
+					=render 'c:/marla/andare/table.haml'
+		.L-row.pad
+			.L-cell-100.brd-grey
+				.L-cell-33.alignment
+					%p.cont-text Всегда актуальное наличие товаров в интернет-магазине
+					%a.cont-link{href: ""} www.andare.ru
+				.L-cell-33.brd-dash.alignment 
+					%span.cont-link Ждем Вам в наших магазинах в Москве:
+					%span.cont-text м.Береговая, Хорошевское шоссе, д.16, стр 3.<br> м.Полежаевская, ул.Гризодубово, д.18,корп.38
+				.L-cell-33.alignment
+					%p.cont-link Задайте вопрос по телефонам
+					%p.cont-text 
+						+7(495)
+						%strong.cont-number 638-53-51
+					%p.cont-text 
+						+7(495)
+						%strong.cont-number 790-20-76
+		.L-row
+			.L-cell-100.pad
+				.L-cell-33.alignment
+					%p.socnet-text Присоединяйтесь к нам в социальных сетях:
+					%a.link-brd{href: ""}
+						%img.socnet-link1{src:""}
+					%a{href: ""}
+						%img.socnet-link2{src:""}
+
+				.L-cell-33.alignment 
+					%p.socnet-text Способы оплаты:
+					%a.socnet-link{href: ""}
+						%img{src:"img/visa.png"}
+					%a.socnet-link{href: ""}
+						%img{src:"img/qiwi.png"}
+					%a.socnet-link{href: ""}
+						%img{src:"img/jandex.png"}
+					%a.socnet-link{href: ""}
+						%img{src:"img/master-card.png"}
+					%a.socnet-link{href: ""}
+						%img{src:"img/webmoney.png"}
+					</br>
+					%a.grey-text{href:""}и еще более 10 способов оплаты
+				.L-cell-33.alignment
+					%p.socnet-text Доставка:
+					%p.grey-text 130 городов России
+					%a{href: ""}
+						%img{src:"img/post.png"}
+					%a{href: ""}
+						%img{src:"img/dpd.png"}
+		.L-row
+			.L-cell-100.pad.footer
+				.L-cell-33
+					%a.footer-link{href:""} ООО Семпремай
+				.L-cell-33
+					%a.footer-link{href:""} info@andare.ru
+				.L-cell-33
+					%a.footer-link{href:""} Отписаться от рассылки

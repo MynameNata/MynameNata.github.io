@@ -1,0 +1,42 @@
+!!!
+%html
+	%head
+		%meta{charset: 'utf-8'}
+		%title Standart
+		%link{rel: 'stylesheet', href: 'css/layout.css'}
+		%link{rel: 'stylesheet', href: 'css/style.css'}
+		%link{rel: 'stylesheet', href: 'css/index.css'}
+	%body 
+		/ обертка
+		.L-row.wrapper 
+			.L-row.pad.header.box
+				.L-cell-20.header__logo
+					%img{src: "img/logo.png", alt: "Стандарт" }
+				.L-cell-60.header__link-align
+					=render "_header-link.html.haml"
+				.L-cell-20.header__search-align
+					%form
+						%input.header__search.box{type: "search", placeholder: "Поиск"}
+						%input.header__search-pic{type:"submit", value: "", placeholder: "Поиск"}
+			=yield
+			/ пустой
+			.empty
+				
+		.L-row.footer.box.pad
+			.L-cell-33.box
+				%p.footer__contacts © Стандарт, 2013
+				%p.footer__contacts 
+					Версия сайта
+					%a.footer__contacts.brd-contacts{href: "", title: "Версия 1.0"} 1.0
+			.L-cell-33
+				%adress.footer__contacts 8 800 775 09 43 (звонок бесплатный)
+				%br
+				%a.footer__contacts.brd-contacts{href: "", title: "info@standart.bz"} info@standart.bz
+			.L-cell-33
+				%button.button Закажите лендинг
+
+
+
+					
+
+					

@@ -1,0 +1,204 @@
+.top-contacts  {
+	text-align: center;
+	height: 60px;
+	line-height: 60px;
+	background: white;
+	display: inline-block;
+}
+.top-contacts__phone {
+	margin: 10px;
+	display: inline-block;
+	color: black;
+	font-weight: bolder;
+}
+.top-contacts__icon{
+	text-decoration: none;
+}
+
+.top-contacts__coll{
+	font-weight: bolder;
+	text-decoration: none;
+	margin: 10px 10px 10px 0;
+	color: rgb(0, 114, 177);
+}
+.top-contacts__mail{
+	font-weight: bolder;
+	text-decoration: none;
+	margin: 10px;
+	color: rgb(0, 114, 177);
+}
+
+.banner {
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+	background: url(../img/bgr-banner.png);
+}
+.banner__red {
+	font-size: 1.1em;
+	color: white;
+	box-sizing: border-box;
+	padding: 20px 90px;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	width: 815px;
+	background-color: rgb(239, 21, 22);
+	margin: 50px;
+}
+.banner__head  {
+	font-size: 1.9em;
+}
+
+ .header-link {
+ 	border-bottom: 1px solid rgb(77, 77, 77);
+ 	text-decoration: none;
+	color: black;
+	font-size: 1.9em;
+	font-weight: bold;
+}
+.header-link__text {
+	font-weight: bold;
+	padding: 0 5px;
+	font-size: 1.0em;
+	color: rgb(0, 0, 0);
+}
+
+.block{
+	vertical-align: top;
+	margin-bottom: 30px;
+	margin-right: 30px;
+	display: inline-block;
+	box-sizing: border-box;
+	text-align: left;
+	width: 200px;
+}
+.bottom {
+	border-bottom: 1px solid rgb(77, 77, 77);
+	}	
+
+.block__photo {
+	display: inline-block;
+}
+.block__link {
+	color: rgb(0, 101, 178);
+	font-size: 1.0em;
+	font-weight: bolder;
+	/*quotes: "«" "»";*/
+}
+.block__quotes {
+	quotes: "«" "»";
+}
+
+.block__text {
+	font-weight: bold;
+	display: inline-block;
+	color: black;
+	font-size: 0.9em;
+}
+.block__date {
+	padding-left: 5px;
+	font-size: 0.8em;
+	color: rgb(199, 199, 199);
+}
+.office {
+	float: right;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 30px;
+}
+.office:after {
+	margin-left: 5px;
+	content: url(../img/office.png);
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.company {
+	padding: 10px 20px 10px 0;
+}
+.services {
+	padding-left: 20px;
+	box-sizing: border-box;
+
+}
+.services-ul {
+	padding: 0;
+	list-style: none;
+}
+
+.jobs {
+	margin-left: 5px;
+}
+.block-command {
+	vertical-align: top;
+	margin-bottom: 30px;
+	margin-right: 30px;
+	display: inline-block;
+	box-sizing: border-box;
+	text-align: left;
+	width: 100px;
+}
+.block-command__photo {
+	display: inline-block;
+}
+.block-command__link {
+	color: rgb(0, 101, 178);
+	font-size: 1.0em;
+	font-weight: bolder;
+}
+.block-command__text {
+	display: inline-block;
+	color: black;
+	font-size: 0.8em;
+	font-style: italic;
+}
+.command-bgr {
+	background: rgb(240, 240, 240);
+}
+
+
+.picture {
+	background-image: url(../img/picture.png);
+	background-repeat: no-repeat;
+}
+
+.banner__red-next{
+	font-size: 1.1em;
+	color: white;
+	box-sizing: border-box;
+	display: inline-block;
+	vertical-align: middle;
+	width: 815px;
+	background-color: rgb(239, 21, 22);
+	margin: 50px;
+	text-align: left;
+}
+.right {
+	padding: 20px 10px 25px 10px;
+	float: right;
+}
+.banner-link {
+	color: white;
+	text-decoration: none;
+	border-bottom: 1px dotted white;
+}
+.cusiv {
+	font-weight: 600;
+	font-style: italic;
+}
+.down {
+	margin-top: 20px;
+	display: block;
+}
+
+.knowledge {
+	padding: 10px 35px;
+}
+.knowledge-header {
+ 	border-bottom: 1px solid rgb(77, 77, 77);
+ 	text-decoration: none;
+	color: black;
+	font-size: 1.4em;
+	font-weight: bold;
+}
