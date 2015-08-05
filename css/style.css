@@ -51,8 +51,8 @@ a:hover {
 	display: block;
 }
 .sidebar-btn:hover{
-
-	-moz-transform: translateX(-23px);
+	opacity: 0.8;
+/*	-moz-transform: translateX(-23px);
     -ms-transform: translateX(-23px);
     -o-transform: translateX(-23px);
     transform: translateX(-23px);
@@ -63,7 +63,7 @@ a:hover {
     -moz-transition: all 0.1s linear;
     -o-transition: all 0.1s  linear;
 	width: 121px;
-
+*/
 }
 .btn-portfolio {
 	background: url(../img/portfolio-btn.png) no-repeat;
