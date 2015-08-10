@@ -42,28 +42,19 @@ a:hover {
 }
 /*sidebar*/
 .sidebar {
-	float: left;
 	padding: 101px 0 0 0 !important;
+	overflow: hidden;
 }
+
 .sidebar-btn {
+	margin: 0px;
 	width: 98px;
 	height: 54px;
-	display: block;
+	display: inline-block;
+	float: right;
 }
 .sidebar-btn:hover{
 	opacity: 0.8;
-/*	-moz-transform: translateX(-23px);
-    -ms-transform: translateX(-23px);
-    -o-transform: translateX(-23px);
-    transform: translateX(-23px);
-
-  
-    transition: all 0.1s linear;
-    -webkit-transition: all 0.1s linear;
-    -moz-transition: all 0.1s linear;
-    -o-transition: all 0.1s  linear;
-	width: 121px;
-*/
 }
 .btn-portfolio {
 	background: url(../img/portfolio-btn.png) no-repeat;
@@ -86,8 +77,8 @@ a:hover {
 /*content*/
 .content {
 	display: block;
-	padding: 20px;
-}
+/*	padding: 20px;
+*/}
 .content-text {
 	color: rgb(57,57,57);
 }
@@ -167,7 +158,7 @@ a:hover {
 /*icons*/
 .porfolio_icon {
 	display: inline-block;
-	margin: 7px;
+	margin: 1%;
 	text-align: center;
 }
 .porfolio_icon-text {
@@ -180,7 +171,7 @@ a:hover {
 	display: block;
 	width: 170px;
 	height: 150px;
-	background-size: 100% 100%; 
+	background-size: cover; 
 	border: 3px solid grey;
 	margin-top: 10px;
 }

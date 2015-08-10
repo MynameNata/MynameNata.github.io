@@ -1,19 +1,21 @@
 !!!
 %html
 	%head
-	%meta{:charset=>"utf-8"}
-	%title Portfolio
-	%link{:href => "css/style.css", :rel => "stylesheet", :type => "text/css"}
-	%link{:href => "css/bootstrap.css", :rel => "stylesheet", :type => "text/css"}
-	%script{:src => "js/jquery-2.1.3.min.js", :type => "text/javascript"}
-	%script{:src => "js/bootstrap.min.js", :type => "text/javascript"}
+		%meta{:charset=>"utf-8"}
+		%title Portfolio
+		%link{'rel'=>'shortcut icon', 'href'=>"./img/title.png", 'type'=>'image/x-icon'}
+		%link{:href => "css/style.css", :rel => "stylesheet", :type => "text/css"}
+		%link{:href => "css/media.css", :rel => "stylesheet", :type => "text/css"}
+		%link{:href => "css/bootstrap.css", :rel => "stylesheet", :type => "text/css"}
+		%script{:src => "js/jquery-2.1.3.min.js", :type => "text/javascript"}
+		%script{:src => "js/bootstrap.min.js", :type => "text/javascript"}
 	%body
-		.container-fluid.big-bg
+		.container-fluid
 			.row
 				/ main
-				.col-lg-8.col-md-8.col-sm-8.col-xs-8.main.box
+				.col-lg-9.col-md-9.col-sm-12.col-xs-12.main.box
 					/ sidebar
-					.sidebar
+					.col-lg-2.col-md-2.col-sm-12.col-xs-12.sidebar
 						/ portfolio
 						%a.sidebar-btn.btn-portfolio{'href'=>'index','title'=>'Portfolio'}
 						/ about
@@ -23,22 +25,23 @@
 
 
 					/ content
-					.col-lg-10.col-md-10.col-sm-10.col-xs-10.content
+					.col-lg-10.col-md-10.col-sm-12.col-xs-12.content
 
 						/ head
 						.row
-							.col-lg-6.col-md-6.col-sm-6.col-xs-6.head
+							.col-lg-6.col-md-8.col-sm-6.col-xs-12.head
 								%a.head-photo{'href'=>'http://www.weblancer.net/users/marlushik/', 'title'=>'click me!'}
 								.head-box
 									%a{'href'=>'http://www.weblancer.net/users/marlushik/', 'title'=>'click me!'}
 										%h3.head_text.content-text natalia kostikova
 									%a{'href'=>'http://www.weblancer.net/users/marlushik/', 'title'=>'click me!'}
 										%h4.head_text html/css developer
-								
+
+					.col-lg-10.col-md-10.col-sm-12.col-xs-12.content.portfolio-box			
 						/ portfolio
 						.row
 							.col-lg-12.col-md-12.col-sm-12.col-xs-12.portfolio.box
-								%img.avaible{'src'=>'./img/available.png'}
+								%img.avaible{'src'=>'./img/available.png', 'alt'=>'available'}
 								%h1.portfolio_head potfolio
 								%p.portfolio_text Hi! I can help you create a website! 
 								%p.portfolio_text I'm using HTML5/CSS3, Bootstrap3, jQuery for Bootstrap3, sprites. I'm creating adaptive, responsive, block Web Design. WC3 Validation.
@@ -47,23 +50,23 @@
 								/ icons
 								.porfolio_icon
 									%a.porfolio_icon-link.brush{'href'=>'./brush','title'=>'Brush'}
-									%a.porfolio_icon-text{'href'=>'./brush'} Brush - adaptive website
+									%a.porfolio_icon-text{'href'=>'./brush','title'=>'Brush'} Brush - adaptive website
 
 								.porfolio_icon
 									%a.porfolio_icon-link.azartplay{'href'=>'./azartplay','title'=>'azartplay'}
-									%a.porfolio_icon-text{'href'=>'./azartplay'} Azartplay - block website
+									%a.porfolio_icon-text{'href'=>'./azartplay','title'=>'azartplay'} Azartplay - block website
 
 								.porfolio_icon
 									%a.porfolio_icon-link.standart{'href'=>'./standart','title'=>'standart'}
-									%a.porfolio_icon-text{'href'=>'./standart'} Standart
+									%a.porfolio_icon-text{'href'=>'./standart','title'=>'standart'} Standart
 
 								.porfolio_icon
 									%a.porfolio_icon-link.andare{'href'=>'./andare','title'=>'andare'}
-									%a.porfolio_icon-text{'href'=>'./andare'} Andare - internet shop
+									%a.porfolio_icon-text{'href'=>'./andare','title'=>'andare'} Andare - internet shop
 
 								.porfolio_icon
 									%a.porfolio_icon-link.empire{'href'=>'./empire','title'=>'empire'}
-									%a.porfolio_icon-text{'href'=>'./empire'} Empire
+									%a.porfolio_icon-text{'href'=>'./empire','title'=>'empire'} Empire
 									
 								.porfolio_icon
 									%a.porfolio_icon-link.adnetworks{'href'=>'./adnetworks','title'=>'adnetworks'}
