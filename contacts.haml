@@ -15,37 +15,38 @@
 				/ main
 				.col-lg-9.col-md-9.col-sm-12.col-xs-12.main.box
 					/ sidebar
-					.col-lg-2.col-md-2.hidden-sm.hidden-xs.sidebar
+					.col-lg-2.col-md-2.col-sm-6.col-xs-12.sidebar
 						/ portfolio
-						%a.sidebar-btn.btn-portfolio{'href'=>'index','title'=>'Portfolio'}
+						%a.sidebar-btn.btn-portfolio.sidebar-text{'href'=>'index','title'=>'Portfolio'} Portfolio
 
 						/ about
-						%a.sidebar-btn.btn-about{'href'=>'about','title'=>'About'}
+						%a.sidebar-btn.btn-about.sidebar-text{'href'=>'about','title'=>'About'} About
 
 						/ contacts
-						%a.sidebar-btn.btn-contact{'href'=>'contacts', 'title'=>'Contacts'}
+						%a.sidebar-btn.btn-contact.sidebar-text{'href'=>'contacts', 'title'=>'Contacts'} Contacts
 
 
 					/ content
-					.col-lg-10.col-md-10.col-sm-12.col-xs-12.content
+					.col-lg-10.col-md-10.col-sm-6.col-xs-12.content
 
 						/ head
 						.row
-							.col-lg-6.col-md-8.col-sm-6.col-xs-12.head
+							.col-lg-6.col-md-8.col-sm-12.col-xs-12.head
 								%a.head-photo{'href'=>'http://www.weblancer.net/users/marlushik/', 'title'=>'click me!'}
 								.head-box
 									%a{'href'=>'http://www.weblancer.net/users/marlushik/', 'title'=>'click me!'}
 										%h3.head_text.content-text natalia kostikova
 									%a{'href'=>'http://www.weblancer.net/users/marlushik/', 'title'=>'click me!'}
 										%h4.head_text html/css developer
-								
+										
+					.col-lg-10.col-md-10.col-sm-12.col-xs-12.content.portfolio-box			
 						/ portfolio
 						.row
 							.col-lg-12.col-md-12.col-sm-12.col-xs-12.portfolio.box
 								%img.avaible{'src'=>'./img/available.png','alt'=>'available'}
 								%h1.portfolio_head contacts
 								%a{'href'=>'http://www.weblancer.net/users/marlushik/', 'title'=>'Weblancer'}
-									%h3 my account on Weblancer
+									%h3.weblancer my account on Weblancer
 								%h4 skype: marla_lamar
 								%h4 mail: https.ka@gmail.com
 

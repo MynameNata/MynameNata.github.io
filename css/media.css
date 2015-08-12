@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 568px) {
 	body {
 		padding: 0;
 	}
@@ -6,45 +6,221 @@
 		padding: none;
 	}
 	.main {
-	display: flex;
-    flex-direction: column-reverse;	
-}
+		display: flex;
+	    flex-direction: column-reverse;	
+	}
 	
 	.sidebar {
+		border-right: 3px solid grey;
+		border-left: 3px solid grey;
     	order: 2;
-		padding: none !important;
 	}
+	.sidebar-btn {
+		background-attachment: fixed;
+    	background-repeat: no-repeat;
+    	background-position: center center;
+
+		width: 100%;
+		font-size: 11pt;
+		font-weight: bold;
+		padding-top: 13px;
+		color: white;
+		text-align: center;
+		display: block;
+		height: 44px;
+	}
+	.sidebar-btn:hover {
+		opacity: 0.8;
+		color: white;
+	}
+	.sidebar-btn:first-child {
+		margin: 0;
+	}
+	.btn-portfolio {
+		background: url(../img/btn-portfolio-mob.png);
+	}
+	.btn-portfolio:hover {
+		background: url(../img/btn-portfolio-mob.png);
+	}
+	.btn-contact {
+		background: url(../img/btn-contact-mob.png);
+	}
+	.btn-contact:hover {
+		background: url(../img/btn-contact-mob.png);
+	}
+
+	.btn-about:hover {
+		background: url(../img/btn-about-mob.png);
+	}
+	.btn-about {
+		background: url(../img/btn-about-mob.png);
+	}
+	
+	
 	.content {
 		order: 3;
-		display: table-header-group;
 
 	}
 	.portfolio-box {
 		order: 1;
-		display: table-row-group;
 
 	}
-	.sidebar-btn {
+	.porfolio_icon {
 		width: 100%;
-		height: 34px;
 		display: block;
+		margin: 0 auto;
 	}
-	.btn-portfolio {
-		background: url(../img/portfolio-btn.png);
+	.porfolio_icon-link {
+		margin: 20px auto;
+		display: block;
+		width: 100%;
+		height: 220px;
 		background-size: cover;
-	}
-	.btn-about {
-		background: url(../img/home-btn.png);
-		background-size: cover;
-	}
-	.btn-contact {
-		background: url(../img/contact-btn.png);
-		background-size: cover;
-	}
-	.btn-portfolio:hover,
-	.btn-about:hover,
-	.btn-contact:hover {
-		opacity: 0.8;
 	}
 	
+
+	.head_text{
+		font-size: 13pt;
+	}
+	.portfolio_head {
+		font-size: 20pt;
+	}
+	.portfolio_text {
+		font-size: 10pt;
+	}
+	.weblancer {
+		font-size: 16pt;
+	}
+	
+}
+
+@media screen and (min-width: 468px) and (max-width: 760px) {
+	body {
+		padding: 0;
+	}
+	.content {
+		padding: none;
+	}
+	.main {
+		display: flex;
+	    flex-direction: column-reverse;	
+	}
+	.sidebar-btn {
+		background-attachment: fixed;
+	    background-repeat: no-repeat;
+	    background-position: center center;
+
+		font-size: 11pt;
+		font-weight: bold;
+		padding-top: 13px;
+		color: white;
+		text-align: center;
+		display: inline-block;
+		width: 33.33%;
+		height: 44px;
+	}
+	.sidebar-btn:hover {
+		opacity: 0.8;
+		color: white;
+	}
+
+	.sidebar {
+		border-right: 3px solid grey;
+		border-left: 3px solid grey;
+    	order: 2;
+	}
+	
+	.sidebar-btn:first-child {
+		margin: 0;
+	}
+	.content {
+		order: 3;
+	}
+	.portfolio-box {
+		order: 1;
+	}
+	.btn-portfolio {
+		background: url(../img/btn-portfolio-mob.png);
+	}
+	.btn-portfolio:hover {
+		background: url(../img/btn-portfolio-mob.png);
+	}
+	.btn-contact {
+		background: url(../img/btn-contact-mob.png);
+	}
+	.btn-contact:hover {
+		background: url(../img/btn-contact-mob.png);
+	}
+	.btn-about {
+		background: url(../img/btn-about-mob.png);
+	}
+	.btn-about:hover {
+		background: url(../img/btn-about-mob.png);
+	}
+	
+}
+
+@media screen and (min-width: 750px) and (max-width: 1000px){
+	
+	.sidebar {
+		float:  right !important;
+		display: inline-block;
+		vertical-align: middle;
+	}
+	.content {
+		vertical-align: middle;
+		display: inline-block;
+	}
+	.portfolio-box {
+		order: 3;
+	}
+	.sidebar-btn:first-child {
+		margin: 0;
+	}
+	.sidebar-btn {
+	width: 33.33%;
+	height: 80px;
+	display: inline-block;
+
+	padding: 30px 10px;
+	ackground-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 100% 100%;
+	border-radius:25px 25px 0 0;
+	-webkit-border-radius:25px 25px 0 0;
+	-o-border-radius:25px 25px 0 0;
+	-ms-border-radius:25px 25px 0 0;
+	border-left: 3px solid grey;
+	border-right: 3px solid grey;
+	border-top: 3px solid grey;
+
+	font-size: 12pt;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	}
+	
+	.sidebar-btn:hover {
+		opacity: 0.8;
+		color: white;
+	}
+	.btn-portfolio {
+		background: url(../img/btn-portfolio-mob.png);
+	}
+	.btn-portfolio:hover {
+		background: url(../img/btn-portfolio-mob.png);
+	}
+	.btn-contact {
+		background: url(../img/btn-contact-mob.png);
+	}
+	.btn-contact:hover {
+		background: url(../img/btn-contact-mob.png);
+	}
+	.btn-about {
+		background: url(../img/btn-about-mob.png);
+	}
+	.btn-about:hover {
+		background: url(../img/btn-about-mob.png);
+	}
 }
