@@ -1,9 +1,21 @@
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
 	body {
 		padding: 0;
 	}
+	.main {
+		display: table !important;
+	}
+	.sidebar {
+		display: table-footer-group !important;
+
+	}
 	.content {
+		display: table-header-group !important;
+
 		padding: none;
+	}
+	.portfolio-box {
+		display: table-row-group !important;
 	}
 	.sidebar-btn {
 		background-attachment: fixed;
@@ -45,9 +57,12 @@
 	.btn-about {
 		background: url(../img/btn-about-mob.png);
 	}
+	.head_text {
+		font-size: 13pt;
+	}
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) and (max-width: 991px){
 	body {
 		padding: 0;
 	}
@@ -95,7 +110,7 @@
 		background: url(../img/btn-about-mob.png);
 	}
 }
-@media screen and (min-width: 992px){
+@media screen and (min-width: 992px) and (max-width: 1199px){
 	body {
 		padding: 2%;
 	}
@@ -103,7 +118,6 @@
 	.sidebar {
 		float:  right !important;
 		display: inline-block;
-		vertical-align: middle;
 	}
 	.content {
 		vertical-align: middle;
@@ -116,27 +130,27 @@
 		margin: 0;
 	}
 	.sidebar-btn {
-	width: 33.33%;
-	height: 80px;
-	display: inline-block;
+		width: 33.33%;
+		height: 80px;
+		display: inline-block;
 
-	padding: 30px 10px;
-	ackground-attachment: fixed;
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: 100% 100%;
-	border-radius:25px 25px 0 0;
-	-webkit-border-radius:25px 25px 0 0;
-	-o-border-radius:25px 25px 0 0;
-	-ms-border-radius:25px 25px 0 0;
-	border-left: 3px solid grey;
-	border-right: 3px solid grey;
-	border-top: 3px solid grey;
+		padding: 30px 10px;
+		ackground-attachment: fixed;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: 100% 100%;
+		border-radius:25px 25px 0 0;
+		-webkit-border-radius:25px 25px 0 0;
+		-o-border-radius:25px 25px 0 0;
+		-ms-border-radius:25px 25px 0 0;
+		border-left: 3px solid grey;
+		border-right: 3px solid grey;
+		border-top: 3px solid grey;
 
-	font-size: 12pt;
-	font-weight: bold;
-	color: white;
-	text-align: center;
+		font-size: 12pt;
+		font-weight: bold;
+		color: white;
+		text-align: center;
 	}
 	
 	.sidebar-btn:hover {
@@ -164,4 +178,52 @@
 	}
 }
 
+@media screen and (min-width: 1200px) {
+	body {
+		padding: 5%;
+						
+	}
+	.sidebar {
+		padding: 0 !important;
+		overflow: hidden;
+	}
 
+	.sidebar-btn {
+		margin: 0px;
+		width: 98px;
+		height: 54px;
+		display: inline-block;
+		float: right;
+	}
+
+	.sidebar-btn:first-child {
+		margin-top: 80px;
+	}
+	.sidebar-btn:hover{
+		opacity: 0.8;
+	}
+	.btn-portfolio {
+		color: #b1f200;
+		background: url(../img/portfolio-btn.png) no-repeat;
+	}
+	.btn-portfolio:hover {
+		color: #b1f200;
+		background: url(../img/portfolio-hover.png);
+	}
+	.btn-about {
+		color: #00c2f3;
+		background: url(../img/home-btn.png) no-repeat;
+	}
+	.btn-about:hover{
+		color: #00c2f3;
+		background: url(../img/home-hover.png);
+	}
+	.btn-contact {
+		color: #f4004b;
+		background: url(../img/contact-btn.png) no-repeat;
+	}
+	.btn-contact:hover {
+		color: #f4004b;
+		background: url(../img/contact-hover.png);
+	}
+}
