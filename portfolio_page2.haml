@@ -2,10 +2,10 @@
 %html
 	%head
 		%meta{:charset=>"utf-8"}
-		%title Portfolio
+		%title Portfolio/Page2
 		%link{'rel'=>'shortcut icon', 'href'=>"./img/title.png", 'type'=>'image/x-icon'}
 		%link{:href => "css/style.css", :rel => "stylesheet", :type => "text/css"}
-		%link{:href => "css/media.css", :rel => "stylesheet", :type => "text/css"}
+		%link{:href => "css/medianew.css", :rel => "stylesheet", :type => "text/css"}
 		%link{:href => "css/bootstrap.css", :rel => "stylesheet", :type => "text/css"}
 		%script{:src => "js/jquery-2.1.3.min.js", :type => "text/javascript"}
 		%script{:src => "js/bootstrap.min.js", :type => "text/javascript"}
@@ -14,30 +14,32 @@
 			.row
 				/ main
 				.col-lg-9.col-md-9.col-sm-12.col-xs-12.main.box
-					/ sidebar
-					.col-lg-2.col-md-2.col-sm-6.col-xs-12.sidebar
-						/ portfolio
-						%a.sidebar-btn.btn-portfolio.sidebar-text{'href'=>'index','title'=>'Portfolio'} Portfolio
-						/ about
-						%a.sidebar-btn.btn-about.sidebar-text{'href'=>'about','title'=>'About'} About
-						/ contacts
-						%a.sidebar-btn.btn-contact.sidebar-text{'href'=>'contacts','title'=>'Contacts'} Contacts
 
 
 					/ content
-					.col-lg-10.col-md-10.col-sm-6.col-xs-12.content
+					.col-lg-12.col-md-6.col-sm-12.col-xs-12.content.box
 
 						/ head
 						.row
-							.col-lg-6.col-md-7.col-sm-12.col-xs-12.head
+							.col-lg-6.col-lg-push-2.col-lg-6.col-md-12.col-sm-12.col-xs-12.head
 								%a.head-photo{'href'=>'http://www.weblancer.net/users/marlushik/', 'title'=>'click me!'}
 								.head-box
 									%a{'href'=>'http://www.weblancer.net/users/marlushik/', 'title'=>'click me!'}
 										%h3.head_text.content-text natalia kostikova
 									%a{'href'=>'http://www.weblancer.net/users/marlushik/', 'title'=>'click me!'}
 										%h4.head_text html/css developer
-										
-					.col-lg-10.col-md-10.col-sm-12.col-xs-12.content.portfolio-box			
+
+					/ sidebar
+					.col-lg-2.col-md-6.col-sm-12.col-xs-12.sidebar.box
+						/ portfolio
+						%a.col-lg-9.col-md-4.col-sm-4.col-xs-12.sidebar-btn.btn-portfolio.sidebar-text.bg-size{'href'=>'index','title'=>'Portfolio'} Portfolio
+						/ about
+						%a.col-lg-9.col-md-4.col-sm-4.col-xs-12.sidebar-btn.btn-about.sidebar-text.bg-size{'href'=>'about','title'=>'About'} About
+						/ contacts
+						%a.col-lg-9.col-md-4.col-sm-4.col-xs-12.sidebar-btn.btn-contact.sidebar-text.bg-size{'href'=>'contacts','title'=>'Contacts'} Contacts	
+
+
+					.col-lg-10.col-md-12.col-sm-12.col-xs-12.content.portfolio-box.box		
 						/ portfolio
 						.row
 							.col-lg-12.col-md-12.col-sm-12.col-xs-12.portfolio.box
@@ -48,28 +50,28 @@
 								%p.portfolio_text Thank you for your time!
 
 								/ icons
-								.porfolio_icon
-									%a.porfolio_icon-link.massage{'href'=>'./massage','title'=>'Massage'}
+								.porfolio_icon.col-lg-6.col-md-4.col-sm-6.col-xs-12
+									%a.porfolio_icon-link.massage.bg-size{'href'=>'./massage','title'=>'Massage'}
 									%a.porfolio_icon-text{'href'=>'./massage','title'=>'Massage'} Massage - block page
 
-								.porfolio_icon
-									%a.porfolio_icon-link.mobi{'href'=>'./mobi','title'=>'mobi'}
+								.porfolio_icon.col-lg-6.col-md-4.col-sm-6.col-xs-12
+									%a.porfolio_icon-link.mobi.bg-size{'href'=>'./mobi','title'=>'mobi'}
 									%a.porfolio_icon-text{'href'=>'./mobi','title'=>'mobi'} Mobi - adaptive website
 
-								.porfolio_icon
-									%a.porfolio_icon-link.standart{'href'=>'./standart','title'=>'standart'}
+								.porfolio_icon.col-lg-6.col-md-4.col-sm-6.col-xs-12
+									%a.porfolio_icon-link.standart.bg-size{'href'=>'./standart','title'=>'standart'}
 									%a.porfolio_icon-text{'href'=>'./standart'} Standart
 
-								.porfolio_icon
-									%a.porfolio_icon-link.andare{'href'=>'./andare','title'=>'andare'}
+								.porfolio_icon.col-lg-6.col-md-4.col-sm-6.col-xs-12
+									%a.porfolio_icon-link.andare.bg-size{'href'=>'./andare','title'=>'andare'}
 									%a.porfolio_icon-text{'href'=>'./andare'} Andare - internet shop
 
-								.porfolio_icon
-									%a.porfolio_icon-link.empire{'href'=>'./empire','title'=>'empire'}
+								.porfolio_icon.col-lg-6.col-md-4.col-sm-6.col-xs-12
+									%a.porfolio_icon-link.empire.bg-size{'href'=>'./empire','title'=>'empire'}
 									%a.porfolio_icon-text{'href'=>'./empire'} Empire
 									
-								.porfolio_icon
-									%a.porfolio_icon-link.adnetworks{'href'=>'./adnetworks','title'=>'adnetworks'}
+								.porfolio_icon.col-lg-6.col-md-4.col-sm-6.col-xs-12
+									%a.porfolio_icon-link.adnetworks.bg-size{'href'=>'./adnetworks','title'=>'adnetworks'}
 									%a.porfolio_icon-text{'href'=>'./adnetworks'} Adnetworks
 
 								/ page

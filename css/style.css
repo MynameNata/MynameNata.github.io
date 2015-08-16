@@ -64,7 +64,9 @@ a:hover {
 	width: 100%;
 	padding: 20px;
 	background: url(../img/head-bg.png) no-repeat;
-	-webkit-background-size:cover !important; 
+	-webkit-background-size:cover !important;
+	-ms-background-size:cover !important;
+	-o-background-size:cover !important; 
 	background-size: cover !important;
 	border-radius:25px 25px 0 0;
 	-webkit-border-radius:25px 25px 0 0;
@@ -99,6 +101,9 @@ a:hover {
 	float: right;
 	margin-right: -28px;
 }
+.emtpy {
+	clear: both;
+}
 .portfolio {
 	background: url(../img/content-bg.png) no-repeat;
 	-webkit-background-size:cover !important; 
@@ -130,9 +135,6 @@ a:hover {
 }
 /*icons*/
 .porfolio_icon {
-	width: 30%;
-	display: inline-block;
-	margin: 1.4%;
 	text-align: center;
 }
 .porfolio_icon-text {
@@ -144,35 +146,39 @@ a:hover {
 .porfolio_icon-link {
 	display: block;
 	width: 100%;
-	height: 150px;
-	background-size: 100% 100%; 
+	height: 200px;
 	border: 3px solid grey;
 	margin-top: 10px;
 }
+.bg-size {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
 .brush {
-	background: url(../img/icon-brush.png) no-repeat;
+	background-image: url(../img/icon-brush.png);
 }
 .azartplay {
-	background: url(../img/aza.png) no-repeat;
+	background-image: url(../img/aza.png);
 }
 .standart {
-	background: url(../img/standart.png) no-repeat;
+	background-image: url(../img/standart.png);
 }
 .andare {
-	background: url(../img/andare.png) no-repeat;
+	background-image: url(../img/andare.png);
 }
 .empire {
-	background: url(../img/empire.png) no-repeat;
+	background-image: url(../img/empire.png);
 }
 .adnetworks {
-	background: url(../img/adnetworks.png) no-repeat;
+	background-image: url(../img/adnetworks.png);
 }
 .massage {
-	background: url(../img/massage.png) no-repeat;
+	background-image: url(../img/massage.png);
 
 }
 .mobi {
-	background: url(../img/mobi.png) no-repeat;
+	background-image: url(../img/mobi.png);
 
 }
 /*page-box*/

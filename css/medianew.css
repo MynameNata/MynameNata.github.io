@@ -2,18 +2,15 @@
 	body {
 		padding: 0;
 	}
+	.portfolio {
+		overflow: hidden;
+	}
 	.sidebar {
 		border-right: 3px solid grey;
 		border-left: 3px solid grey;
 	}
-	.portfolio-box {
-		display: table-row-group !important;
-	}
+	
 	.sidebar-btn {
-		background-attachment: fixed;
-    	background-repeat: no-repeat;
-    	background-position: center center;
-
 		width: 100%;
 		font-size: 11pt;
 		font-weight: bold;
@@ -31,23 +28,23 @@
 		margin: 0;
 	}
 	.btn-portfolio {
-		background: url(../img/btn-portfolio-mob.png);
+		background-image: url(../img/btn-portfolio-mob.png);
 	}
 	.btn-portfolio:hover {
-		background: url(../img/btn-portfolio-mob.png);
+		background-image: url(../img/btn-portfolio-mob.png);
 	}
 	.btn-contact {
-		background: url(../img/btn-contact-mob.png);
+		background-image: url(../img/btn-contact-mob.png);
 	}
 	.btn-contact:hover {
-		background: url(../img/btn-contact-mob.png);
+		background-image: url(../img/btn-contact-mob.png);
 	}
 
 	.btn-about:hover {
-		background: url(../img/btn-about-mob.png);
+		background-image: url(../img/btn-about-mob.png);
 	}
 	.btn-about {
-		background: url(../img/btn-about-mob.png);
+		background-image: url(../img/btn-about-mob.png);
 	}
 	.head_text {
 		font-size: 13pt;
@@ -61,15 +58,14 @@
 	.content {
 		padding: none;
 	}
+	.portfolio {
+		overflow: hidden;
+	}
 	.sidebar {
 		border-right: 3px solid grey;
 		border-left: 3px solid grey;
 	}
 	.sidebar-btn {
-		background-attachment: fixed;
-	    background-repeat: no-repeat;
-	    background-position: center center;
-
 		font-size: 11pt;
 		font-weight: bold;
 		padding-top: 13px;
@@ -88,22 +84,22 @@
 	}
 	.btn-portfolio {
 		float: left;
-		background: url(../img/btn-portfolio-mob.png);
+		background-image: url(../img/btn-portfolio-mob.png);
 	}
 	.btn-portfolio:hover {
-		background: url(../img/btn-portfolio-mob.png);
+		background-image: url(../img/btn-portfolio-mob.png);
 	}
 	.btn-contact {
-		background: url(../img/btn-contact-mob.png);
+		background-image: url(../img/btn-contact-mob.png);
 	}
 	.btn-contact:hover {
-		background: url(../img/btn-contact-mob.png);
+		background-image: url(../img/btn-contact-mob.png);
 	}
 	.btn-about {
-		background: url(../img/btn-about-mob.png);
+		background-image: url(../img/btn-about-mob.png);
 	}
 	.btn-about:hover {
-		background: url(../img/btn-about-mob.png);
+		background-image: url(../img/btn-about-mob.png);
 	}
 }
 @media screen and (min-width: 992px) and (max-width: 1199px){
@@ -112,6 +108,7 @@
 	}
 	
 	.sidebar {
+		overflow: hidden;
 		float:  right !important;
 		display: inline-block;
 	}
@@ -119,8 +116,8 @@
 		vertical-align: middle;
 		display: inline-block;
 	}
-	.portfolio-box {
-		order: 3;
+	.portfolio {
+		overflow: hidden;
 	}
 	.sidebar-btn:first-child {
 		margin: 0;
@@ -131,10 +128,6 @@
 		display: inline-block;
 
 		padding: 30px 10px;
-		ackground-attachment: fixed;
-		background-repeat: no-repeat;
-		background-position: center center;
-		background-size: 100% 100%;
 		border-radius:25px 25px 0 0;
 		-webkit-border-radius:25px 25px 0 0;
 		-o-border-radius:25px 25px 0 0;
@@ -155,29 +148,31 @@
 	}
 	.btn-portfolio {
 		float: left;
-		background: url(../img/btn-portfolio-mob.png);
+		background-image: url(../img/btn-portfolio-mob.png);
 	}
 	.btn-portfolio:hover {
-		background: url(../img/btn-portfolio-mob.png);
+		background-image: url(../img/btn-portfolio-mob.png);
 	}
 	.btn-contact {
-		background: url(../img/btn-contact-mob.png);
+		background-image: url(../img/btn-contact-mob.png);
 	}
 	.btn-contact:hover {
-		background: url(../img/btn-contact-mob.png);
+		background-image: url(../img/btn-contact-mob.png);
 	}
 	.btn-about {
-		background: url(../img/btn-about-mob.png);
+		background-image: url(../img/btn-about-mob.png);
 	}
 	.btn-about:hover {
-		background: url(../img/btn-about-mob.png);
+		background-image: url(../img/btn-about-mob.png);
 	}
 }
 
 @media screen and (min-width: 1200px) {
 	body {
-		padding: 5%;
-						
+		padding: 5%;					
+	}
+	.portfolio {
+		overflow: hidden;
 	}
 	
 	.sidebar-btn {
@@ -191,28 +186,27 @@
 	}
 	.btn-portfolio {
 		color: #b1f200;
-		background: url(../img/portfolio-btn.png) no-repeat;
+		background-image: url(../img/portfolio-btn.png);
 	}
 	.btn-portfolio:hover {
 		color: #b1f200;
-		background: url(../img/portfolio-hover.png) no-repeat;
+		background-image: url(../img/portfolio-hover.png);
 	}
 	.btn-about {
 		color: #00c2f3;
-		background: url(../img/home-btn.png) no-repeat;
+		background-image: url(../img/home-btn.png);
 	}
 	.btn-about:hover{
 		color: #00c2f3;
-		background: url(../img/home-hover.png) no-repeat;
+		background-image: url(../img/home-hover.png);
 	}
 	.btn-contact {
 		color: #f4004b;
-		background: url(../img/contact-btn.png) no-repeat;
+		background-image: url(../img/contact-btn.png);
 	}
 	.btn-contact:hover {
 		color: #f4004b;
-		background: url(../img/contact-hover.png) no-repeat;
+		background-image: url(../img/contact-hover.png);
 	}
-
 	
 }
