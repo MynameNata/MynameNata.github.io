@@ -50,7 +50,7 @@ a:hover {
 	overflow: hidden;
 }
 
-.sidebar-btn {
+/*.sidebar-btn {
 	margin: 0px;
 	width: 98px;
 	height: 54px;
@@ -87,7 +87,7 @@ a:hover {
 .btn-contact:hover {
 	color: #f4004b;
 	background: url(../img/contact-hover.png);
-}
+}*/
 /*content*/
 .content {
 	display: block;

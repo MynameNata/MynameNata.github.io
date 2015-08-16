@@ -183,22 +183,16 @@
 		padding: 5%;
 						
 	}
-	.sidebar {
-		padding: 0 !important;
-		overflow: hidden;
-	}
-
+	
+	
 	.sidebar-btn {
-		margin: 0px;
 		width: 98px;
 		height: 54px;
-		display: inline-block;
+		display: block;
 		float: right;
 	}
 
-	.sidebar-btn:first-child {
-		margin-top: 80px;
-	}
+	
 	.sidebar-btn:hover{
 		opacity: 0.8;
 	}
@@ -226,4 +220,6 @@
 		color: #f4004b;
 		background: url(../img/contact-hover.png);
 	}
+
+	
 }
