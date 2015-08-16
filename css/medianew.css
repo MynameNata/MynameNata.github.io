@@ -2,17 +2,9 @@
 	body {
 		padding: 0;
 	}
-	.main {
-		display: table !important;
-	}
 	.sidebar {
-		display: table-footer-group !important;
-
-	}
-	.content {
-		display: table-header-group !important;
-
-		padding: none;
+		border-right: 3px solid grey;
+		border-left: 3px solid grey;
 	}
 	.portfolio-box {
 		display: table-row-group !important;
@@ -68,6 +60,10 @@
 	}
 	.content {
 		padding: none;
+	}
+	.sidebar {
+		border-right: 3px solid grey;
+		border-left: 3px solid grey;
 	}
 	.sidebar-btn {
 		background-attachment: fixed;
@@ -184,15 +180,12 @@
 						
 	}
 	
-	
 	.sidebar-btn {
-		width: 98px;
 		height: 54px;
-		display: block;
-		float: right;
+		display: inline-block;
+		float: right !important;
 	}
 
-	
 	.sidebar-btn:hover{
 		opacity: 0.8;
 	}
@@ -202,7 +195,7 @@
 	}
 	.btn-portfolio:hover {
 		color: #b1f200;
-		background: url(../img/portfolio-hover.png);
+		background: url(../img/portfolio-hover.png) no-repeat;
 	}
 	.btn-about {
 		color: #00c2f3;
@@ -210,7 +203,7 @@
 	}
 	.btn-about:hover{
 		color: #00c2f3;
-		background: url(../img/home-hover.png);
+		background: url(../img/home-hover.png) no-repeat;
 	}
 	.btn-contact {
 		color: #f4004b;
@@ -218,7 +211,7 @@
 	}
 	.btn-contact:hover {
 		color: #f4004b;
-		background: url(../img/contact-hover.png);
+		background: url(../img/contact-hover.png) no-repeat;
 	}
 
 	

@@ -50,44 +50,6 @@ a:hover {
 	overflow: hidden;
 }
 
-/*.sidebar-btn {
-	margin: 0px;
-	width: 98px;
-	height: 54px;
-	display: inline-block;
-	float: right;
-}
-
-.sidebar-btn:first-child {
-	margin-top: 80px;
-}
-.sidebar-btn:hover{
-	opacity: 0.8;
-}
-.btn-portfolio {
-	color: #b1f200;
-	background: url(../img/portfolio-btn.png) no-repeat;
-}
-.btn-portfolio:hover {
-	color: #b1f200;
-	background: url(../img/portfolio-hover.png);
-}
-.btn-about {
-	color: #00c2f3;
-	background: url(../img/home-btn.png) no-repeat;
-}
-.btn-about:hover{
-	color: #00c2f3;
-	background: url(../img/home-hover.png);
-}
-.btn-contact {
-	color: #f4004b;
-	background: url(../img/contact-btn.png) no-repeat;
-}
-.btn-contact:hover {
-	color: #f4004b;
-	background: url(../img/contact-hover.png);
-}*/
 /*content*/
 .content {
 	display: block;
