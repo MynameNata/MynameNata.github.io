@@ -176,6 +176,11 @@
 	}
 	
 	.sidebar-btn {
+		text-align: center;
+		padding-top: 20px;
+		font-size: 11pt;
+		font-weight: bold;
+		color: white;
 		height: 54px;
 		display: inline-block;
 		float: right !important;
@@ -183,30 +188,19 @@
 
 	.sidebar-btn:hover{
 		opacity: 0.8;
+		color: white;
 	}
 	.btn-portfolio {
-		color: #b1f200;
 		background-image: url(../img/portfolio-btn.png);
 	}
-	.btn-portfolio:hover {
-		color: #b1f200;
-		background-image: url(../img/portfolio-hover.png);
-	}
+	
 	.btn-about {
-		color: #00c2f3;
 		background-image: url(../img/home-btn.png);
 	}
-	.btn-about:hover{
-		color: #00c2f3;
-		background-image: url(../img/home-hover.png);
-	}
+	
 	.btn-contact {
-		color: #f4004b;
 		background-image: url(../img/contact-btn.png);
 	}
-	.btn-contact:hover {
-		color: #f4004b;
-		background-image: url(../img/contact-hover.png);
-	}
+	
 	
 }
