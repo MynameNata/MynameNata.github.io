@@ -100,6 +100,7 @@ a:hover {
 .avaible {
 	float: right;
 	margin-right: -28px;
+
 }
 .emtpy {
 	clear: both;
@@ -124,7 +125,6 @@ a:hover {
 }
 .portfolio_text {
 	font-size: 10pt;
-	text-transform: capitalize;
 	font-weight: bold;
 	color: #343434;
 	text-align: justify;
