@@ -1,4 +1,4 @@
-@media screen and (min-width: 768px) and (max-width: 991px){
+@media screen and (min-width: 240px) and (max-width: 767px){
 	body {
 		padding: 0;
 	}
@@ -51,7 +51,7 @@
 	}
 }
 
-/*@media screen and (min-width: 768px) and (max-width: 991px){
+@media screen and (min-width: 768px) and (max-width: 991px){
 	body {
 		padding: 0;
 	}
@@ -101,7 +101,7 @@
 	.btn-about:hover {
 		background-image: url(../img/btn-about-mob.png);
 	}
-}*/
+}
 @media screen and (min-width: 992px) and (max-width: 1199px){
 	body {
 		padding: 2%;
@@ -115,6 +115,7 @@
 	.content {
 		vertical-align: middle;
 		display: inline-block;
+	
 	}
 	.portfolio {
 		overflow: hidden;
