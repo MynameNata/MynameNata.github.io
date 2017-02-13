@@ -6142,7 +6142,7 @@ button.close {
   left: -100%;
 }
 .carousel-inner > .active.right {
-  left: 100%;
+  left: 0%;
 }
 .carousel-control {
   position: absolute;

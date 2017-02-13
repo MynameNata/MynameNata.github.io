@@ -27,8 +27,7 @@ body {
 	-webkit-box-sizing: border-box;
 }
 
-.head-photo:hover,
-.head_text:hover,
+
 .porfolio_icon-link:hover{
 	opacity: 0.5;
 }
@@ -117,7 +116,6 @@ a:hover {
 	border-left: 3px solid grey;
 	border-right: 3px solid grey;
 	border-bottom: 3px solid grey;
-	
 }
 .portfolio_head {
 	text-transform: capitalize;
