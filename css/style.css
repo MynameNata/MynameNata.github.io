@@ -4,8 +4,8 @@ html, body {
 	height: 100%;
 	margin: 0;
 	padding: 0;
-	height:auto !important;
-}
+/*	height:auto !important;
+*/}
 
 body {
 	padding: 5%;
@@ -116,6 +116,10 @@ a:hover {
 	border-left: 3px solid grey;
 	border-right: 3px solid grey;
 	border-bottom: 3px solid grey;
+}
+.contact-container{
+	overflow: hidden;
+	min-height: 200px !important;
 }
 .portfolio_head {
 	text-transform: capitalize;

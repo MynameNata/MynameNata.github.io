@@ -1,6 +1,10 @@
-@media screen and (min-width: 768px) and (max-width: 991px){
+@media screen and (min-width: 240px) and (max-width: 768px){
 	body {
 		padding: 0;
+	}
+	.container-fluid{
+		margin: 0 !important;
+		padding: 2% 0 !important;
 	}
 	.portfolio {
 		overflow: hidden;
@@ -51,9 +55,9 @@
 	}
 }
 
-/*@media screen and (min-width: 768px) and (max-width: 991px){
+@media screen and (min-width: 769px) and (max-width: 992px){
 	body {
-		padding: 0;
+		padding: 5%;
 	}
 	.content {
 		padding: none;
@@ -101,10 +105,10 @@
 	.btn-about:hover {
 		background-image: url(../img/btn-about-mob.png);
 	}
-}*/
-@media screen and (min-width: 992px) and (max-width: 1199px){
+}
+@media screen and (min-width: 993px) and (max-width: 1201px){
 	body {
-		padding: 2%;
+		padding: 5%;
 	}
 	
 	.sidebar {
@@ -115,7 +119,7 @@
 	.content {
 		vertical-align: middle;
 		display: inline-block;
-	
+		min-height: 900px;
 	}
 	.portfolio {
 		overflow: hidden;
@@ -168,7 +172,7 @@
 	}
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1202px) {
 	body {
 		padding: 5%;					
 	}
