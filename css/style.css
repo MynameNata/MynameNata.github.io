@@ -99,7 +99,6 @@ a:hover {
 .avaible {
 	float: right;
 	margin-right: -28px;
-
 }
 .emtpy {
 	clear: both;
@@ -154,8 +153,8 @@ a:hover {
 }
 .bg-size {
 	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center center;
+/*	background-repeat: no-repeat;
+*/	background-position: center center;
 }
 .brush {
 	background-image: url(../img/icon-brush.png);
