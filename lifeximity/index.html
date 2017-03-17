@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta content='width=device-width, initial-scale=1' name='viewport'>
+    <title>Test</title>
+    <link href='css/bootstrap.css' rel='stylesheet' type='text/css'>
+    <link href='css/style.css' rel='stylesheet' type='text/css'>
+    <link href='css/media.css' rel='stylesheet' type='text/css'>
+    <script src='js/jquery-2.1.3.min.js' type='text/javascript'></script>
+    <script src='js/bootstrap.min.js' type='text/javascript'></script>
+  </head>
+  <body>
+    <div class='header'>
+      <a class='logo col-lg-offset-1 col-md-offset-1 col-xs-offset-1' href='#'></a>
+      <a class='icon col-lg-offset-7 col-md-offset-7 col-sm-offset-7 hidden-xs' href='#'></a>
+      <div class='dropdown head-drop-style col-lg-offset-1 col-md-offset-1 col-sm-offset-1'>
+        <button aria-expanded='false' class='col-lg-1 col-md-1 header-menu col-sm-1 hidden-xs' data-toggle='dropdown'></button>
+        <button aria-expanded='false' class='controls-btn hidden-lg hidden-md header-menu-mob col-xs-pull-1 col-xs-1 hidden-sm' data-toggle='dropdown'>
+          <span class='glyphicon glyphicon-menu-hamburger glyphicon-size'></span>
+        </button>
+        <ul aria-labelledby='dLabel' class='dropdown-menu header-list col-lg-1 col-md-1 col-sm-12 col-xs-12 dropdown-menu-right' role='menu'>
+          <li class='header-list_item' role='presentation'>
+            <a class='header-list_link' href='#' title='home'>Profile</a>
+          </li>
+          <li class='header-list_item' role='presentation'>
+            <a class='header-list_link' href='#' title='home'>Settings</a>
+          </li>
+          <li class='divider hidden-xs hidden-sm' role='presentation'></li>
+          <li class='header-list_item' role='presentation'>
+            <a class='header-list_link' href='#' role='menuitem' tabindex='-1'>Sign out</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class='container-fluid'>
+      <div class='row'>
+        <div class='main col-lg-12 col-md-12 col-sm-12 col-xs-12'>
+          <div class='row'>
+            <div class='col-lg-10 col-md-10 col-sm-10 col-xs-12 col-lg-offset-1 col-md-offset-1 col-sm-offset-1 main-box'>
+              <div class='row profile'>
+                <div class='col-lg-12 col-md-12 col-xs-12 col-sm-12 ver'>
+                  <h1 class='title'>First Name Last Name</h1>
+                </div>
+              </div>
+              <div class='row'>
+                <div class='col-lg-3 col-md-3 col-sm-12 col-xs-12'>
+                  <div class='col-lg-12 col-md-12 profile-left-cell'>
+                    <div class='col-sm-12 col-xs-12'>
+                      <a class='profile-icon' href='#'></a>
+                    </div>
+                    <div class='col-sm-12 col-xs-12'>
+                      <button class='profile-btn profile-btn-pic'>Change Pictupe</button>
+                    </div>
+                  </div>
+                </div>
+                <div class='col-lg-9 col-md-9 col-sm-12 col-xs-12'>
+                  <form class='col-lg-12 col-md-12' role='form'>
+                    <form class='form-horizontal' role='form'>
+                      <div class='form-group'>
+                        <label class='col-lg-3 col-md-3 hidden-sm hidden-xs profile-lable' for='jobTitle'>Current Job Title</label>
+                        <div class='col-lg-5 col-md-5 col-sm-12 col-xs-12'>
+                          <input class='forms-control no-radius input-mob' id='jobTitle' placeholder='Current Job Title' type='text'>
+                        </div>
+                        <div class='col-lg-4 col-md-4 hidden-sm hidden-xs ver'>
+                          <button class='green-btn profile-btn profile-btn-head'>view profile</button>
+                        </div>
+                      </div>
+                    </form>
+                  </form>
+                  <form class='col-lg-12 col-md-12 title-style'>
+                    <label class='col-lg-3 col-md-3 hidden-sm hidden-xs profile-lable' for='summary'>Your Summary</label>
+                    <div class='col-lg-9 col-md-9'>
+                      <div class='profile-btn-box hidden-sm hidden-xs'>
+                        <button class='controls-btn hidden-xs' type='button'>
+                          <span class='glyphicon glyphicon-share-alt'></span>
+                        </button>
+                        <button class='controls-btn hidden-xs' type='button'>
+                          <span class='glyphicon glyphicon-share-alt'></span>
+                        </button>
+                        <button class='hidden-xs controls-btn drop-weight' data-toggle='dropdown' type='button'>
+                          Formats
+                          <span class='caret'></span>
+                        </button>
+                        <ul aria-labelledby='btnGroupDrop1' class='dropdown-menu list-position' role='menu'>
+                          <li>
+                            <a href='#'>Dropdown</a>
+                          </li>
+                          <li>
+                            <a href='#'>Dropdown</a>
+                          </li>
+                        </ul>
+                        <button class='controls-btn hidden-xs' type='button'>
+                          <span class='glyphicon glyphicon-align-left'></span>
+                        </button>
+                        <button class='controls-btn hidden-xs' type='button'>
+                          <span class='glyphicon glyphicon-align-center'></span>
+                        </button>
+                        <button class='controls-btn hidden-xs' type='button'>
+                          <span class='glyphicon glyphicon-align-right'></span>
+                        </button>
+                        <button class='controls-btn hidden-xs' type='button'>
+                          <span class='glyphicon glyphicon-align-justify'></span>
+                        </button>
+                        <button class='controls-btn hidden-xs' type='button'>
+                          <span class='glyphicon glyphicon-list'></span>
+                        </button>
+                        <button class='controls-btn hidden-xs' type='button'>
+                          <span class='glyphicon glyphicon-align-justify'></span>
+                        </button>
+                        <button class='controls-btn hidden-xs' type='button'>
+                          <span class='glyphicon glyphicon-indent-right'></span>
+                        </button>
+                        <button class='controls-btn hidden-xs' type='button'>
+                          <span class='glyphicon glyphicon-indent-left'></span>
+                        </button>
+                      </div>
+                      <textarea class='text-wigth text-mob' id='summary' placeholder='Your Summery' rows='10'></textarea>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <div class='row'>
+                <div class='col-lg-12col-md-12 col-sm-12 col-xs-12 btn-save-box'>
+                  <button class='profile-btn save save-mob'>Save</button>
+                </div>
+              </div>
+            </div>
+            
+            <div class='col-lg-10 col-md-10 col-sm-10 col-xs-12 col-lg-offset-1 col-md-offset-1 col-sm-offset-1 main-box'>
+              <div class='row'>
+                <div class='col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-12 col-xs-12'>
+                  <h2 class='location'>Your Location + Contact Info</h2>
+                  <hr class='divider'>
+                  <form class='form-horizontal form-l' role='form'>
+                    <div class='form-group forms'>
+                      <label class='col-lg-4 col-md-4 col-sm-4 hidden-xs profile-lable' for='adress'>Street Adress</label>
+                      <div class='col-lg-7 col-md-8 col-sm-8 col-xs-12'>
+                        <input class='forms-control no-radius input-mob' id='adress' placeholder='Street Adress' type='text'>
+                      </div>
+                    </div>
+                    <div class='form-group forms'>
+                      <label class='col-lg-4 col-md-4 col-sm-4 hidden-xs profile-lable' for='city'>City</label>
+                      <div class='col-lg-7 col-md-8 col-sm-8 col-xs-12'>
+                        <input class='forms-control no-radius input-mob' id='city' placeholder='City' type='text'>
+                      </div>
+                    </div>
+                    <div class='form-group forms'>
+                      <label class='col-lg-4 col-md-4 col-sm-4 hidden-xs profile-lable' for='state'>State</label>
+                      <div class='col-lg-7 col-md-8 col-sm-8 col-xs-12 w-arrow'>
+                        <select class='forms-control no-radius select-size input-mob select-style' id='state'>
+                          <option>State</option>
+                          <option>CA</option>
+                          <option>CA</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class='form-group forms'>
+                      <label class='col-lg-4 col-md-4 col-sm-4 hidden-xs profile-lable' for='zip'>Zip Code</label>
+                      <div class='col-lg-7 col-md-8 col-sm-8 col-xs-12'>
+                        <input class='forms-control locations-drop no-radius input-mob' id='zip' placeholder='Zip Code' type='text'>
+                      </div>
+                    </div>
+                    <div class='form-group forms'>
+                      <label class='col-lg-4 col-md-4 col-sm-4 hidden-xs profile-lable' for='phone'>Phone Number</label>
+                      <div class='col-lg-7 col-md-8 col-sm-8 col-xs-12'>
+                        <input class='forms-control input-mob' id='phone' placeholder='Phone Number' type='text'>
+                      </div>
+                    </div>
+                    <div class='mob-chakbox'>
+                      <div class='form-group forms'>
+                        <label class='col-lg-4 col-md-4 col-sm-4 profile-lable profile-lable-mobile' for='multistory'>Multistory Building</label>
+                        <div class='multistory-mobile col-lg-7 col-md-7 col-sm-7 check-box'>
+                          <div class='radio radio-box profile-chack'>
+                            <input class='input-variant' id='multistory' name='choice' type='radio' value='yes'>
+                            <label class='lbl-variant lbl-variant-block' for='multistory'>Yes</label>
+                            <input class='input-variant' id='multistoryB' name='choice' type='radio' value='no'>
+                            <label class='lbl-variant lbl-variant-block' for='multistoryB'>No</label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                  <form class='form-horizontal' role='form'>
+                    <div class='form-group forms'>
+                      <label class='col-lg-4 col-md-4 col-sm-4 hidden-xs profile-lable' for='floor'>Floor Number</label>
+                      <div class='col-lg-7 col-md-8 col-sm-8 col-xs-12'>
+                        <select class='forms-control no-radius select-size input-mob select-style' id='floor'>
+                          <option>Floor#</option>
+                          <option>CA</option>
+                          <option>CA</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class='form-group forms'>
+                      <label class='col-lg-4 col-md-4 col-sm-4 hidden-xs profile-lable' for='building'>Building Name(If Aplicable)</label>
+                      <div class='col-lg-7 col-md-8 col-sm-8 col-xs-12'>
+                        <input class='forms-control no-radius input-mob input-mob' id='building' placeholder='Building Name (If Applicable)' type='text'>
+                      </div>
+                    </div>
+                  </form>
+                  <div class='row'>
+                    <div class='col-lg-12 btn-save-box'>
+                      <button class='profile-btn save save-mob'>Save</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class='col-lg-10 col-md-10 col-sm-10 col-xs-12 col-lg-offset-1 col-md-offset-1 col-sm-offset-1 main-box'>
+              <div class='row'>
+                <div class='col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-12 col-xs-12'>
+                  <h2 class='location'>Exsperiance</h2>
+                  <hr class='divider'>
+                  <form class='form-horizontal form-l' role='form'>
+                    <div class='form-group forms'>
+                      <label class='col-lg-4 col-md-4 col-sm-4 hidden-xs profile-lable' for='title'>Job Title</label>
+                      <div class='col-lg-7 col-md-8 col-sm-8 col-xs-12'>
+                        <input class='forms-control no-radius input-mob' id='title' placeholder='Job Title' type='text'>
+                      </div>
+                    </div>
+                    <div class='form-group forms'>
+                      <label class='col-lg-4 col-md-4 col-sm-4 hidden-xs profile-lable' for='company'>Company Name</label>
+                      <div class='col-lg-7 col-md-8 col-sm-8 col-xs-12'>
+                        <input class='forms-control no-radius input-mob' id='company' placeholder='Company Name' type='text'>
+                      </div>
+                    </div>
+                    <div class='form-group forms'>
+                      <label class='youRsummary profile-lable col-lg-4 col-md-4 hidden-sm hidden-xs control-label'>Your Summary</label>
+                      <div class='col-lg-8 col-md-8 control-box'>
+                        <div class='profile-btn-box hidden-sm hidden-xs control-box'>
+                          <button class='controls-btn controls-btn-ex hidden-xs' type='button'>
+                            <span class='glyphicon glyphicon-share-alt'></span>
+                          </button>
+                          <button class='controls-btn controls-btn-ex hidden-xs' type='button'>
+                            <span class='glyphicon glyphicon-share-alt'></span>
+                          </button>
+                          <button class='hidden-xs controls-btn controls-btn-ex drop-weight' data-toggle='dropdown' type='button'>
+                            Formats
+                            <span class='caret'></span>
+                          </button>
+                          <ul aria-labelledby='btnGroupDrop1' class='dropdown-menu list-position' role='menu'>
+                            <li>
+                              <a href='#'>Dropdown</a>
+                            </li>
+                            <li>
+                              <a href='#'>Dropdown</a>
+                            </li>
+                          </ul>
+                          <button class='controls-btn controls-btn-ex hidden-xs' type='button'>
+                            <span class='glyphicon glyphicon-align-left'></span>
+                          </button>
+                          <button class='controls-btn controls-btn-ex hidden-xs' type='button'>
+                            <span class='glyphicon glyphicon-align-center'></span>
+                          </button>
+                          <button class='controls-btn controls-btn-ex hidden-xs' type='button'>
+                            <span class='glyphicon glyphicon-align-right'></span>
+                          </button>
+                          <button class='controls-btn controls-btn-ex hidden-xs' type='button'>
+                            <span class='glyphicon glyphicon-align-justify'></span>
+                          </button>
+                          <button class='controls-btn controls-btn-ex hidden-xs' type='button'>
+                            <span class='glyphicon glyphicon-list'></span>
+                          </button>
+                          <button class='controls-btn controls-btn-ex hidden-xs' type='button'>
+                            <span class='glyphicon glyphicon-align-justify'></span>
+                          </button>
+                          <button class='controls-btn controls-btn-ex hidden-xs' type='button'>
+                            <span class='glyphicon glyphicon-indent-right'></span>
+                          </button>
+                          <button class='controls-btn controls-btn-ex hidden-xs' type='button'>
+                            <span class='glyphicon glyphicon-indent-left'></span>
+                          </button>
+                        </div>
+                        <textarea class='text-wigth text-box col-xs-12 hidden-sm' id='youRsummary' placeholder='Your Summery' rows='6'></textarea>
+                      </div>
+                    </div>
+                    <div class='mob-chakbox'>
+                      <div class='form-group'>
+                        <label class='col-lg-4 col-md-4 col-sm-4 col-xs-12 profile-lable' for='employed'>Employed From</label>
+                        <div class='col-lg-8 col-md-8 col-sm-8'>
+                          <select class='select-style select-style-mobile forms-control no-radius input-mob' id='employed'>
+                            <option>January</option>
+                            <option>January</option>
+                            <option>January</option>
+                          </select>
+                          <select class='select-style select-style-mobile forms-control no-radius input-mob' id='employed'>
+                            <option>2008</option>
+                            <option>2008</option>
+                            <option>2008</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class='form-group'>
+                        <label class='col-lg-4 col-md-4 col-sm-4 col-xs-12 profile-lable' for='employedTo'>Employed To</label>
+                        <div class='col-lg-8 col-md-8 col-sm-8'>
+                          <select class='select-style select-style-mobile forms-control no-radius input-mob' id='employedTo'>
+                            <option>April</option>
+                            <option>April</option>
+                            <option>April</option>
+                          </select>
+                          <select class='select-style select-style-mobile forms-control no-radius input-mob' id='employedTo'>
+                            <option>2015</option>
+                            <option>2015</option>
+                            <option>2015</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                    <div class='form-group forms'>
+                      <label class='col-lg-4 col-md-4 col-sm-4 hidden-xs profile-lable' for='location'>Location City</label>
+                      <div class='col-lg-7 col-md-8 col-sm-8 col-xs-12'>
+                        <input class='forms-control no-radius input-mob' id='location' placeholder='Location City' type='text'>
+                      </div>
+                    </div>
+                    <div class='form-group forms'>
+                      <label class='col-lg-4 col-md-4 col-sm-4 hidden-xs profile-lable' for='location-st'>Location State</label>
+                      <div class='col-lg-7 col-md-8 col-sm-8 col-xs-12'>
+                        <select class='forms-control no-radius select-size input-mob select-style' id='location-st'>
+                          <option>CA</option>
+                          <option>CA</option>
+                          <option>CA</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class='mob-chakbox'>
+                      <div class='form-group forms'>
+                        <label class='col-lg-4 col-md-4 col-sm-4 col-xs-6 profile-lable lbl-mob' for='current'>Current Job</label>
+                        <div class='col-lg-7 col-md-8 col-sm-8 col-xs-6 check-box'>
+                          <div class='radio radio-box profile-chack'>
+                            <input class='input-variant' id='opportuniti' name='choice' type='radio' value='yes'>
+                            <label class='lbl-variant' for='opportuniti'>Yes</label>
+                            <input class='input-variant' id='opportunities' name='choice' type='radio' value='no'>
+                            <label class='lbl-variant' for='opportunities'>No</label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <div class='row'>
+                <div class='col-lg-12 col-md-12 col-sm-12 col-xs-11 btn-save-box'>
+                  <button class='profile-btn save save-mob profile-btn-mob'>Save</button>
+                  <button class='profile-btn save save-mob profile-btn-mob'>Add Other Exsperiance</button>
+                </div>
+                <div class='col-lg-12 col-md-12 col-sm-12 col-xs-1'>
+                  <button class='closed'></button>
+                </div>
+              </div>
+            </div>
+            <div class='col-lg-10 col-md-10 col-sm-10 col-xs-12 col-lg-offset-1 col-md-offset-1 col-sm-offset-1 main-box'>
+              <div class='row'>
+                <div class='col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-12 col-xs-12'>
+                  <h2 class='location'>Education</h2>
+                  <hr class='divider'>
+                  <form class='form-horizontal form-l' role='form'>
+                    <div class='form-group forms'>
+                      <label class='col-lg-4 col-md-4 col-sm-4 hidden-xs profile-lable' for='school'>Name of School</label>
+                      <div class='col-lg-7 col-md-8 col-sm-8 col-xs-12'>
+                        <input class='forms-control no-radius input-mob' id='school' placeholder='Name of Shool' type='text'>
+                      </div>
+                    </div>
+                    <div class='form-group forms'>
+                      <label class='col-lg-4 col-md-4 col-sm-4 hidden-xs profile-lable' for='study'>Field of Study</label>
+                      <div class='col-lg-7 col-md-8 col-sm-8 col-xs-12'>
+                        <input class='forms-control no-radius input-mob' id='study' placeholder='Field of Study' type='text'>
+                      </div>
+                    </div>
+                    <div class='form-group forms'>
+                      <label class='col-lg-4 col-md-4 col-sm-4 hidden-xs profile-lable' for='degree'>Degree</label>
+                      <div class='col-lg-7 col-md-8 col-sm-8 col-xs-12'>
+                        <input class='forms-control no-radius input-mob' id='degree' placeholder='Degree' type='text'>
+                      </div>
+                    </div>
+                    <div class='mob-chakbox'>
+                      <div class='form-group forms'>
+                        <label class='col-lg-4 col-md-4 col-sm-4 col-xs-12 profile-lable' for='graduation'>Graduation Date</label>
+                        <div class='col-lg-8 col-md-8 col-sm-8'>
+                          <select class='select-style select-style-mobile forms-control no-radius input-mob' id='graduation'>
+                            <option>January</option>
+                            <option>January</option>
+                            <option>January</option>
+                          </select>
+                          <select class='select-style select-style-mobile forms-control no-radius input-mob' id='graduation'>
+                            <option>2008</option>
+                            <option>2008</option>
+                            <option>2008</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                    <div class='form-group forms'>
+                      <label class='col-lg-4 col-md-4 col-sm-4 hidden-xs profile-lable' for='locationCity'>Location City</label>
+                      <div class='col-lg-7 col-md-8 col-sm-8 col-xs-12'>
+                        <input class='forms-control no-radius input-mob' id='locationCity' placeholder='Location City' type='text'>
+                      </div>
+                    </div>
+                    <div class='form-group forms'>
+                      <label class='col-lg-4 col-md-4 col-sm-4 hidden-xs profile-lable' for='location-stat'>Location State</label>
+                      <div class='col-lg-7 col-md-8 col-sm-8 col-xs-12'>
+                        <select class='forms-control no-radius select-size input-mob select-style' id='location-stat'>
+                          <option>CA</option>
+                          <option>CA</option>
+                          <option>CA</option>
+                        </select>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <div class='row'>
+                <div class='col-lg-12 col-md-12 col-sm-12 col-xs-11 btn-save-box'>
+                  <button class='profile-btn save save-mob profile-btn-mob'>Save</button>
+                  <button class='profile-btn save profile-btn-mob'>Add Other Education</button>
+                </div>
+                <div class='col-lg-12 col-md-12 col-sm-12 col-xs-1'>
+                  <button class='closed'></button>
+                </div>
+              </div>
+            </div>
+            <div class='col-lg-10 col-md-10 col-sm-10 col-xs-12 col-lg-offset-1 col-md-offset-1 col-sm-offset-1 main-box'>
+              <div class='row'>
+                <div class='col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-12 col-xs-12'>
+                  <h2 class='location'>Skills</h2>
+                  <hr class='divider'>
+                  <form class='form-horizontal form-l' role='form'>
+                    <div class='form-group forms'>
+                      <label class='col-lg-4 col-md-4 col-sm-4 hidden-xs profile-lable' for='skill1'>Enter Skill</label>
+                      <div class='col-lg-7 col-md-8 col-sm-8 col-xs-12'>
+                        <input class='forms-control no-radius input-mob' id='skill1' placeholder='Enter Skill' type='text'>
+                      </div>
+                    </div>
+                    <div class='form-group forms'>
+                      <label class='col-lg-4 col-md-4 col-sm-4 hidden-xs profile-lable' for='skill2'>Enter Skill</label>
+                      <div class='col-lg-7 col-md-8 col-sm-8 col-xs-12'>
+                        <input class='forms-control no-radius input-mob' id='skill2' placeholder='Enter Skill' type='text'>
+                      </div>
+                    </div>
+                    <div class='form-group forms'>
+                      <label class='col-lg-4 col-md-4 col-sm-4 hidden-xs profile-lable' for='skill3'>Enter Skill</label>
+                      <div class='col-lg-7 col-md-8 col-sm-8 col-xs-12'>
+                        <input class='forms-control no-radius input-mob' id='skill3' placeholder='Enter Skill' type='text'>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <div class='row'>
+                <div class='col-lg-12 col-md-12 col-sm-12 col-xs-11 btn-save-box'>
+                  <button class='profile-btn save save-mob profile-btn-mob'>Save</button>
+                  <button class='profile-btn save profile-btn-mob'>Add Other Skills</button>
+                </div>
+                <div class='col-lg-12 col-md-12 col-sm-12 col-xs-1'>
+                  <button class='closed'></button>
+                </div>
+              </div>
+            </div>
+            <div class='col-lg-10 col-md-10 col-sm-10 col-xs-12 col-lg-offset-1 col-md-offset-1 col-sm-offset-1 main-box'>
+              <div class='row'>
+                <div class='col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-12 col-xs-12'>
+                  <h2 class='location'>Availability</h2>
+                  <hr class='divider'>
+                </div>
+              </div>
+              <div class='row'>
+                <div class='col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-12 col-xs-12'>
+                  <form class='form-horizontal form-l' role='form'>
+                    <div class='travel-style-mob'>
+                      <div class='form-group forms'>
+                        <label class='avail-style col-lg-5 col-md-5 col-sm-5 col-xs-12 profile-lable avail-style-mob' for='opportunities'>Open to new opportunities?</label>
+                        <div class='col-lg-7 col-md-7 col-sm-7 col-xs-12 avail-style-mob'>
+                          <div class='radio lbl-variant-push'>
+                            <input class='input-variant' id='avail' name='gender' type='radio' value='male'>
+                            <label class='lbl-variant' for='avail'>Yes</label>
+                            <input class='input-variant' id='availS' name='gender' type='radio' value='female'>
+                            <label class='lbl-variant' for='availS'>No</label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class='travel-style-mob'>
+                      <div class='form-group forms'>
+                        <label class='avail-style col-lg-5 col-md-5 col-sm-5 col-xs-12 profile-lable avail-style-mob'>Your availabiliti for work:</label>
+                        <div class='col-lg-7 col-md-7 col-sm-7 col-xs-12'>
+                          <div class='col-lg-6 col-md-6 col-sm-3 col-xs-3 col-xs-offset-3 col-sm-offset-0 col-lg-offset-0 col-md-offset-0'>
+                            <div class='checkbox'>
+                              <input class='inpt-color' id='Full-Time' name='check' type='checkbox' value='check1'>
+                              <label class='lbl-color' for='Full-Time'>Full-Time</label>
+                            </div>
+                            <div class='checkbox'>
+                              <input class='inpt-color' id='Internship' name='check' type='checkbox' value='check2'>
+                              <label class='lbl-color' for='Internship'>Internship</label>
+                            </div>
+                            <div class='checkbox'>
+                              <input class='inpt-color' id='Part-Time' name='check' type='checkbox' value='6'>
+                              <label class='lbl-color' for='Part-Time'>Part-Time</label>
+                            </div>
+                          </div>
+                          <div class='col-lg-6 col-md-6 col-sm-3 col-xs-3'>
+                            <div class='checkbox'>
+                              <input class='inpt-color' id='Temporary' name='check' type='checkbox' value='check4'>
+                              <label class='lbl-color' for='Temporary'>Temporary</label>
+                            </div>
+                            <div class='checkbox'>
+                              <input class='inpt-color' id='contract' name='check' type='checkbox' value='check5'>
+                              <label class='lbl-color' for='contract'>Contract</label>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <div class='row'>
+                <div class='col-lg-12 col-md-12 col-sm-12 col-xs-11 btn-save-box'>
+                  <button class='profile-btn save save-mob profile-btn-mob'>Save</button>
+                </div>
+                <div class='col-lg-12 col-md-12 col-sm-12 col-xs-1'>
+                  <button class='closed'></button>
+                </div>
+              </div>
+            </div>
+            <div class='col-lg-10 col-md-10 col-sm-10 col-xs-12 col-lg-offset-1 col-md-offset-1 col-sm-offset-1 main-box'>
+              <div class='row'>
+                <div class='col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-12 col-xs-12'>
+                  <h2 class='location'>Travel Preference</h2>
+                  <hr class='divider hidden-xs'>
+                  <form class='form-horizontal form-l' role='form'>
+                    <div class='travel-style-mob'>
+                      <div class='form-group forms'>
+                        <label class='col-lg-4 col-md-4 col-sm-4 hidden-xs profile-lable' for='uploadResume'>Upload Your Resume</label>
+                        <label class='hidden-lg hidden-md hidden-sm col-xs-6 col-xs-push-4 profile-lable upload-mob'>Percentage willing to trevel:</label>
+                        <div class='col-lg-8 col-md-8 col-sm-8 col-xs-6 col-xs-offset-4 col-lg-offset-0 col-md-offset-0 col-sm-offset-0'>
+                          <div class='col-lg-6 col-md-6 col-sm-10 col-xs-12'>
+                            <div class='radio profile-chack'>
+                              <input class='input-variant' id='pr5' name='gender' type='radio' value='male'>
+                              <label class='lbl-variant' for='pr5'>Yes 0 - 5%</label>
+                            </div>
+                            <div class='radio profile-chack'>
+                              <input class='input-variant' id='pr10' name='gender' type='radio' value='female'>
+                              <label class='lbl-variant' for='pr10'>Yes Up to 10%</label>
+                            </div>
+                            <div class='radio profile-chack'>
+                              <input class='input-variant' id='pr25' name='gender' type='radio' value='male'>
+                              <label class='lbl-variant' for='pr25'>Yes Up to 25%</label>
+                            </div>
+                          </div>
+                          <div class='col-lg-6 col-md-6 col-sm-10 col-xs-12'>
+                            <div class='radio profile-chack'>
+                              <input class='input-variant' id='pr50' name='gender' type='radio' value='female'>
+                              <label class='lbl-variant' for='pr50'>Yes Up to 50%</label>
+                            </div>
+                            <div class='radio profile-chack'>
+                              <input class='input-variant' id='pr75' name='gender' type='radio' value='male'>
+                              <label class='lbl-variant' for='pr75'>Yes Up to 75%</label>
+                            </div>
+                            <div class='radio profile-chack'>
+                              <input class='input-variant' id='pr100' name='gender' type='radio' value='female'>
+                              <label class='lbl-variant' for='pr100'>Yes Up to 100%</label>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class='row'>
+                        <div class='col-lg-12 col-md-12 col-sm-12 col-xs-11 btn-save-box'>
+                          <button class='profile-btn save save-mob profile-btn-mob'>Save</button>
+                        </div>
+                        <div class='col-lg-12 col-md-12 col-sm-12 col-xs-1'>
+                          <button class='closed'></button>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class='col-lg-10 col-md-10 col-sm-10 col-xs-12 col-lg-offset-1 col-md-offset-1 col-sm-offset-1 main-box'>
+              <div class='row'>
+                <div class='col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-12 col-xs-12'>
+                  <h2 class='location'>Fluent Languages</h2>
+                  <hr class='divider'>
+                </div>
+              </div>
+              <div class='row'>
+                <div class='col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-12 col-xs-12'>
+                  <form class='forms-horizontal' role='form'>
+                    <div class='form-group forms'>
+                      <label class='col-lg-4 col-md-4 col-sm-4 hidden-xs profile-lable' for='language'>Select Language</label>
+                      <div class='col-lg-7 col-md-8 col-sm-8 col-xs-12'>
+                        <select class='forms-control no-radius select-size-lang input-mob select-style' id='language'>
+                          <option>English</option>
+                          <option>Spanish</option>
+                          <option>English</option>
+                        </select>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                <div class='hidden-lg hidden-sm hidden-md col-xs-12'>
+                  <form class='forms-horizontal' role='form'>
+                    <div class='form-group forms'>
+                      <label class='col-lg-4 col-md-4 col-sm-4 hidden-xs profile-lable' for='language'>Select Language</label>
+                      <div class='col-lg-7 col-md-8 col-sm-8 col-xs-12'>
+                        <select class='forms-control no-radius select-size-lang input-mob select-style' id='language'>
+                          <option>English</option>
+                          <option>Spanish</option>
+                          <option>English</option>
+                        </select>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <div class='row style-top'>
+                <div class='col-lg-12 col-md-12 col-sm-12 col-xs-11 btn-save-box'>
+                  <button class='profile-btn save save-mob profile-btn-mob'>Save</button>
+                  <button class='profile-btn save profile-btn-mob'>Add Other Language</button>
+                </div>
+                <div class='col-lg-12 col-md-12 col-sm-12 col-xs-1'>
+                  <button class='closed'></button>
+                </div>
+              </div>
+            </div>
+            <div class='col-lg-10 col-md-10 col-sm-10 col-xs-12 col-lg-offset-1 col-md-offset-1 col-sm-offset-1 main-box'>
+              <div class='row'>
+                <div class='col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-12 col-xs-12'>
+                  <h2 class='location'>Rezume</h2>
+                  <hr class='divider'>
+                  <form class='form-horizontal' role='form'>
+                    <div class='form-group forms'>
+                      <label class='col-lg-5 col-md-5 col-sm-5 hidden-xs profile-lable' for='uploadResume'>Upload Your Resume</label>
+                      <div class='col-lg-7 col-md-7 col-sm-7'>
+                        <button class='up-rezume hidden-lg hidden-md hidden-sm'>Upload Rezume</button>
+                        <button class='resume-btn big-resume-btn no-radius hidden-xs' id='uploadResume'>Drop here or Clik to Brouzer</button>
+                      </div>
+                    </div>
+                    <div class='form-group forms'>
+                      <div class='col-xs-12'>
+                        <button class='progress-mobi hidden-lg hidden-md hidden-sm'>Upload Status</button>
+                      </div>
+                      <label class='col-lg-5 col-md-5 col-sm-5 profile-lable hidden-xs' for='status'>Upload Status</label>
+                      <div class='col-lg-7 col-md-7 col-sm-7 col-xs-12'>
+                        <div class='progress progress-height progress-bar-mobi hidden-xs'>
+                          <div aria-valuemax='100' aria-valuemin='0' aria-valuenow='20' class='hidden-xs progress-bar progress-bar-bg' id='status' role='progressbar' style='width: 20%'>
+                            <span class='sr-only'>20% Complete (success)</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class='form-group forms'>
+                      <label class='col-lg-5 col-md-5 col-sm-5 hidden-xs profile-lable' for='resume'>Name Your Resume</label>
+                      <div class='col-lg-7 col-md-7 col-sm-7 col-xs-12'>
+                        <input class='forms-control no-radius input-mob' id='resume' placeholder='Name Your Resume' type='text'>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <div class='row'>
+                <div class='col-lg-12 col-md-12 col-sm-12 col-xs-11 btn-save-box'>
+                  <button class='profile-btn save'>Save Resume</button>
+                  <button class='uploud-mob upload'>Upload Another Resume</button>
+                  <p class='note-style'>Note: You can upload up to three resumes</p>
+                </div>
+                <div class='col-lg-12 col-md-12 col-sm-12 col-xs-1'>
+                  <button class='closed'></button>
+                </div>
+              </div>
+            </div>
+            <div class='col-lg-10 col-md-10 col-sm-10 col-xs-12 col-lg-offset-1 col-md-offset-1 col-sm-offset-1'>
+              <div class='row footer'>
+                <ul>
+                  <li class='menu menu-left'>
+                    <a alt='home' class='menu-link' href='#'>home</a>
+                  </li>
+                  <li class='menu menu-left'>
+                    <a alt='for buissness' class='menu-link' href='#'>for Buissness</a>
+                  </li>
+                  <li class='menu menu-left'>
+                    <a alt='about us' class='menu-link' href='#'>About Us</a>
+                  </li>
+                  <li class='menu menu-right'>
+                    <a alt='help' class='menu-link' href='#'>Help</a>
+                  </li>
+                  <li class='menu menu-right'>
+                    <a alt='press' class='menu-link' href='#'>Press</a>
+                  </li>
+                  <li class='menu hidden-xs'>
+                    <a alt='privacy' class='menu-link' href='#'>Privacy</a>
+                  </li>
+                  <li class='menu menu-right'>
+                    <a alt='contact us' class='menu-link' href='#'>Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
