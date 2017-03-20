@@ -118,12 +118,13 @@
 		width: 40%;
 	}
 	
-	.lbl-variant-block{
-		display: block;
-		margin: 0 50px 10px 50px;
-	}
+	
 	.lbl-variant:before {
 		bottom: 3px;
+	}
+	.lbl-variant-mob{
+		width: 140px;
+    	text-align: left;
 	}
 	.profile-btn,
 	.resume-btn{
@@ -153,8 +154,9 @@
 		margin-bottom: 30px;
 		width: 70%;
 	}
-	.upload-mob{
-		padding: 30px 0;
+	
+	.center{
+		text-align: center;
 	}
 	.uploud-mob{
 		padding: 0 15px;
@@ -203,10 +205,6 @@
 	}
 
 	
-	.profile-lable-mobile{
-		position: relative;
-		top: -10px;
-	}
 	.mob-chakbox{
 		padding: 0px 10px;
 		border: 2px solid #c3bfbf;
@@ -217,11 +215,7 @@
 		font-weight: normal;
 	}
 
-	.multistory-mobile{
-		display: inline-block;
-		margin-left: 20px;
-
-	}
+	
 	.radio-box {
     	text-transform: capitalize;
 		font-size: 10px;

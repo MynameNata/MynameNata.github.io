@@ -1,0 +1,591 @@
+!!!
+%html
+	%head
+		%meta{:charset=>"utf-8"}
+		%meta{:content => "width=device-width, initial-scale=1", :name => "viewport"}
+
+		%title Test
+
+		%link{:href => "css/bootstrap.css", :rel => "stylesheet", :type => "text/css"}
+		%link{:href => "css/style.css", :rel => "stylesheet", :type => "text/css"}
+		%link{:href => "css/media.css", :rel => "stylesheet", :type => "text/css"}
+		
+		%script{:src => "js/jquery-2.1.3.min.js", :type => "text/javascript"}
+		%script{:src => "js/bootstrap.min.js", :type => "text/javascript"}
+		
+	%body
+		.header
+		
+			%a.logo.col-lg-offset-1.col-md-offset-1.col-xs-offset-1{:href => "#"}
+
+			%a.icon.col-lg-offset-7.col-md-offset-7.col-sm-offset-7.hidden-xs{:href => "#"}
+
+		
+			.dropdown.head-drop-style.col-lg-offset-1.col-md-offset-1.col-sm-offset-1
+				%button.col-lg-1.col-md-1.header-menu.col-sm-1.hidden-xs{"data-toggle" => "dropdown",'aria-expanded'=>"false"}
+
+				%button.controls-btn.hidden-lg.hidden-md.header-menu-mob.col-xs-pull-1.col-xs-1.hidden-sm{"data-toggle" => "dropdown",'aria-expanded'=>"false"}
+					%span.glyphicon.glyphicon-menu-hamburger.glyphicon-size
+				%ul.dropdown-menu.header-list.col-lg-1.col-md-1.col-sm-12.col-xs-12.dropdown-menu-right{"aria-labelledby" => "dLabel", :role => "menu"}
+				
+					%li.header-list_item{:role => "presentation"}
+						%a.header-list_link{:href => "#", :title => "home"} Profile
+					%li.header-list_item{:role => "presentation"}
+						%a.header-list_link{:href => "#", :title => "home"} Settings
+					%li.divider.hidden-xs.hidden-sm{:role => "presentation"}
+					%li.header-list_item{:role => "presentation"}
+						%a.header-list_link{:href => "#", :role => "menuitem", :tabindex => "-1"} Sign out
+
+		.container-fluid
+			.row
+				.main.col-lg-12.col-md-12.col-sm-12.col-xs-12
+					.row	
+
+						.col-lg-10.col-md-10.col-sm-10.col-xs-12.col-lg-offset-1.col-md-offset-1.col-sm-offset-1.main-box
+
+							-#FIDDY CENT
+							.row.profile
+								.col-lg-12.col-md-12.col-xs-12.col-sm-12.ver
+									%h1.title First Name Last Name
+							
+
+							.row
+								.col-lg-3.col-md-3.col-sm-12.col-xs-12
+									.col-lg-12.col-md-12.profile-left-cell
+										.col-sm-12.col-xs-12
+											%a.profile-icon{:href => "#"}
+										.col-sm-12.col-xs-12
+											%button.profile-btn.profile-btn-pic Change Pictupe
+
+
+								.col-lg-9.col-md-9.col-sm-12.col-xs-12
+									-#2box
+									%form.col-lg-12.col-md-12{:role => "form"}
+										%form.form-horizontal{:role => "form"}
+											.form-group
+												%label.col-lg-3.col-md-3.hidden-sm.hidden-xs.profile-lable{:for => "jobTitle"} Current Job Title
+												.col-lg-5.col-md-5.col-sm-12.col-xs-12
+													%input#jobTitle.forms-control.no-radius.input-mob{:type => "text", 'placeholder'=>'Current Job Title'}
+
+												.col-lg-4.col-md-4.hidden-sm.hidden-xs.ver
+													%button.green-btn.profile-btn.profile-btn-head view profile
+										
+
+									%form.col-lg-12.col-md-12.title-style
+										%label.col-lg-3.col-md-3.hidden-sm.hidden-xs.profile-lable{:for => "summary"} Your Summary
+										-#small controls btn
+										.col-lg-9.col-md-9
+											.profile-btn-box.hidden-sm.hidden-xs
+												%button.controls-btn.hidden-xs{:type => "button"}
+													%span.glyphicon.glyphicon-share-alt
+												%button.controls-btn.hidden-xs{:type => "button"}
+													%span.glyphicon.glyphicon-share-alt
+												%button.hidden-xs.controls-btn.drop-weight{"data-toggle" => "dropdown", :type => "button"}
+													Formats
+													%span.caret
+												%ul.dropdown-menu.list-position{"aria-labelledby" => "btnGroupDrop1", :role => "menu"}
+													%li
+														%a{:href => "#"} Dropdown
+													%li
+														%a{:href => "#"} Dropdown
+												%button.controls-btn.hidden-xs{:type => "button"}
+													%span.glyphicon.glyphicon-align-left
+												%button.controls-btn.hidden-xs{:type => "button"}
+													%span.glyphicon.glyphicon-align-center
+												%button.controls-btn.hidden-xs{:type => "button"}
+													%span.glyphicon.glyphicon-align-right
+												%button.controls-btn.hidden-xs{:type => "button"}
+													%span.glyphicon.glyphicon-align-justify
+												%button.controls-btn.hidden-xs{:type => "button"}
+													%span.glyphicon.glyphicon-list
+												%button.controls-btn.hidden-xs{:type => "button"}
+													%span.glyphicon.glyphicon-align-justify
+												%button.controls-btn.hidden-xs{:type => "button"}
+													%span.glyphicon.glyphicon-indent-right
+												%button.controls-btn.hidden-xs{:type => "button"}
+													%span.glyphicon.glyphicon-indent-left
+											
+											%textarea#summary.text-wigth.text-mob{:rows => "10", 'placeholder'=>'Your Summery'}
+							.row
+								.col-lg-12col-md-12.col-sm-12.col-xs-12.btn-save-box
+									%button.profile-btn.save.save-mob Save
+
+
+						=#YOUR LOCATION + CONTACT INFO
+						.col-lg-10.col-md-10.col-sm-10.col-xs-12.col-lg-offset-1.col-md-offset-1.col-sm-offset-1.main-box
+							.row
+								.col-lg-8.col-lg-offset-2.col-md-8.col-md-offset-2.col-sm-12.col-xs-12
+									%h2.location Your Location + Contact Info
+									%hr.divider
+									%form.form-horizontal.form-l{:role => "form"}
+										.form-group.forms
+											%label.col-lg-4.col-md-4.col-sm-4.hidden-xs.profile-lable{:for => "adress"} Street Adress
+											.col-lg-7.col-md-8.col-sm-8.col-xs-12
+												%input#adress.forms-control.no-radius.input-mob{:type => "text", 'placeholder'=>'Street Adress'}
+
+										.form-group.forms
+											%label.col-lg-4.col-md-4.col-sm-4.hidden-xs.profile-lable{:for => "city"} City
+											.col-lg-7.col-md-8.col-sm-8.col-xs-12
+												%input#city.forms-control.no-radius.input-mob{:type => "text", 'placeholder'=>'City'}
+
+										
+										.form-group.forms
+											%label.col-lg-4.col-md-4.col-sm-4.hidden-xs.profile-lable{:for => "state"} State
+											.col-lg-7.col-md-8.col-sm-8.col-xs-12.w-arrow
+												%select#state.forms-control.no-radius.select-size.input-mob.select-style
+
+													%option State
+													%option CA
+													%option CA
+										.form-group.forms
+											%label.col-lg-4.col-md-4.col-sm-4.hidden-xs.profile-lable{:for => "zip"} Zip Code
+											.col-lg-7.col-md-8.col-sm-8.col-xs-12
+												%input#zip.forms-control.locations-drop.no-radius.input-mob{:type => "text", 'placeholder'=>'Zip Code'}
+
+										.form-group.forms
+											%label.col-lg-4.col-md-4.col-sm-4.hidden-xs.profile-lable{:for => "phone"} Phone Number
+											.col-lg-7.col-md-8.col-sm-8.col-xs-12
+												%input#phone.forms-control.input-mob{:type => "text", 'placeholder'=>'Phone Number'}
+										.mob-chakbox
+											.form-group.forms
+												%label.col-lg-4.col-md-4.col-sm-4.col-xs-7.profile-lable{:for => "multistory"} Multistory Building
+
+												.col-lg-7.col-md-7.col-sm-7.col-xs-4.check-box
+													.radio.radio-box.profile-chack
+														%input#multistory.input-variant{:name => "choice", :type => "radio", :value => "yes"}
+														%label.lbl-variant.lbl-variant-block{:for => "multistory"} Yes
+														%input#multistoryB.input-variant{:name => "choice", :type => "radio", :value => "no"}
+														%label.lbl-variant.lbl-variant-block{:for => "multistoryB"} No
+													
+										
+									%form.form-horizontal{:role => "form"}
+
+										.form-group.forms
+											%label.col-lg-4.col-md-4.col-sm-4.hidden-xs.profile-lable{:for => "floor"} Floor Number
+											.col-lg-7.col-md-8.col-sm-8.col-xs-12
+												%select#floor.forms-control.no-radius.select-size.input-mob.select-style
+													%option Floor#
+													%option CA
+													%option CA
+
+										.form-group.forms
+											%label.col-lg-4.col-md-4.col-sm-4.hidden-xs.profile-lable{:for => "building"} Building Name(If Aplicable)
+											.col-lg-7.col-md-8.col-sm-8.col-xs-12
+												%input#building.forms-control.no-radius.input-mob.input-mob{:type => "text", 'placeholder'=>'Building Name (If Applicable)'}
+
+									.row
+										.col-lg-12.btn-save-box
+											%button.profile-btn.save.save-mob Save
+
+						
+
+						-#EXPERIANCE
+						
+						.col-lg-10.col-md-10.col-sm-10.col-xs-12.col-lg-offset-1.col-md-offset-1.col-sm-offset-1.main-box
+							.row
+								.col-lg-8.col-lg-offset-2.col-md-8.col-md-offset-2.col-sm-12.col-xs-12
+									%h2.location Exsperiance
+									%hr.divider
+									
+									%form.form-horizontal.form-l{:role => "form"}
+										.form-group.forms
+											%label.col-lg-4.col-md-4.col-sm-4.hidden-xs.profile-lable{:for => "title"} Job Title
+											.col-lg-7.col-md-8.col-sm-8.col-xs-12
+												%input#title.forms-control.no-radius.input-mob{:type => "text", 'placeholder'=>'Job Title'}
+
+										.form-group.forms
+											%label.col-lg-4.col-md-4.col-sm-4.hidden-xs.profile-lable{:for => "company"} Company Name
+											.col-lg-7.col-md-8.col-sm-8.col-xs-12
+												%input#company.forms-control.no-radius.input-mob{:type => "text", 'placeholder'=>'Company Name'}
+										
+
+									
+										.form-group.forms
+											%label.youRsummary.profile-lable.col-lg-4.col-md-4.hidden-sm.hidden-xs.control-label Your Summary
+
+											-#SMALL CONTROLS BTN
+											.col-lg-8.col-md-8.control-box
+												.profile-btn-box.hidden-sm.hidden-xs.control-box
+													%button.controls-btn.controls-btn-ex.hidden-xs{:type => "button"}
+														%span.glyphicon.glyphicon-share-alt
+													%button.controls-btn.controls-btn-ex.hidden-xs{:type => "button"}
+														%span.glyphicon.glyphicon-share-alt
+													%button.hidden-xs.controls-btn.controls-btn-ex.drop-weight{"data-toggle" => "dropdown", :type => "button"}
+														Formats
+														%span.caret
+													%ul.dropdown-menu.list-position{"aria-labelledby" => "btnGroupDrop1", :role => "menu"}
+														%li
+															%a{:href => "#"} Dropdown
+														%li
+															%a{:href => "#"} Dropdown
+													%button.controls-btn.controls-btn-ex.hidden-xs{:type => "button"}
+														%span.glyphicon.glyphicon-align-left
+													%button.controls-btn.controls-btn-ex.hidden-xs{:type => "button"}
+														%span.glyphicon.glyphicon-align-center
+													%button.controls-btn.controls-btn-ex.hidden-xs{:type => "button"}
+														%span.glyphicon.glyphicon-align-right
+													%button.controls-btn.controls-btn-ex.hidden-xs{:type => "button"}
+														%span.glyphicon.glyphicon-align-justify
+													%button.controls-btn.controls-btn-ex.hidden-xs{:type => "button"}
+														%span.glyphicon.glyphicon-list
+													%button.controls-btn.controls-btn-ex.hidden-xs{:type => "button"}
+														%span.glyphicon.glyphicon-align-justify
+													%button.controls-btn.controls-btn-ex.hidden-xs{:type => "button"}
+														%span.glyphicon.glyphicon-indent-right
+													%button.controls-btn.controls-btn-ex.hidden-xs{:type => "button"}
+														%span.glyphicon.glyphicon-indent-left
+												
+												%textarea#youRsummary.text-wigth.text-box.col-xs-12.hidden-sm{:rows => "6", 'placeholder'=>'Your Summery'}
+										.mob-chakbox
+							
+											.form-group
+												%label.col-lg-4.col-md-4.col-sm-4.col-xs-12.profile-lable{:for => "employed"} Employed From
+												.col-lg-8.col-md-8.col-sm-8
+													%select#employed.select-style.select-style-mobile.forms-control.no-radius.input-mob
+														%option January
+														%option January
+														%option January
+											
+													%select#employed.select-style.select-style-mobile.forms-control.no-radius.input-mob
+														%option 2008
+														%option 2008
+														%option 2008	
+
+								
+											.form-group
+												%label.col-lg-4.col-md-4.col-sm-4.col-xs-12.profile-lable{:for => "employedTo"} Employed To
+												.col-lg-8.col-md-8.col-sm-8
+													%select#employedTo.select-style.select-style-mobile.forms-control.no-radius.input-mob
+														%option April
+														%option April
+														%option April
+											
+													%select#employedTo.select-style.select-style-mobile.forms-control.no-radius.input-mob
+														%option 2015
+														%option 2015
+														%option 2015	
+
+										.form-group.forms
+											%label.col-lg-4.col-md-4.col-sm-4.hidden-xs.profile-lable{:for => "location"} Location City
+											.col-lg-7.col-md-8.col-sm-8.col-xs-12
+												%input#location.forms-control.no-radius.input-mob{:type => "text", 'placeholder'=>'Location City'}
+
+
+							
+										.form-group.forms
+											%label.col-lg-4.col-md-4.col-sm-4.hidden-xs.profile-lable{:for => "location-st"} Location State
+											.col-lg-7.col-md-8.col-sm-8.col-xs-12
+												%select#location-st.forms-control.no-radius.select-size.input-mob.select-style
+													%option CA
+													%option CA
+													%option CA
+
+										.mob-chakbox
+											.form-group.forms
+												%label.col-lg-4.col-md-4.col-sm-4.col-xs-6.profile-lable.lbl-mob{:for => "current"} Current Job
+												.col-lg-7.col-md-8.col-sm-8.col-xs-6.check-box
+
+													.radio.radio-box.profile-chack
+														%input#opportuniti.input-variant{:name => "choice", :type => "radio", :value => "yes"}
+														%label.lbl-variant{:for => "opportuniti"} Yes
+														%input#opportunities.input-variant{:name => "choice", :type => "radio", :value => "no"}
+														%label.lbl-variant{:for => "opportunities"} No
+
+							.row
+								.col-lg-12.col-md-12.col-sm-12.col-xs-11.btn-save-box
+									%button.profile-btn.save.save-mob.profile-btn-mob Save
+
+									%button.profile-btn.save.save-mob.profile-btn-mob Add Other Exsperiance
+
+								.col-lg-12.col-md-12.col-sm-12.col-xs-1
+									%button.closed
+
+
+						-#EDUCATION
+						.col-lg-10.col-md-10.col-sm-10.col-xs-12.col-lg-offset-1.col-md-offset-1.col-sm-offset-1.main-box
+							.row
+								.col-lg-8.col-lg-offset-2.col-md-8.col-md-offset-2.col-sm-12.col-xs-12
+									%h2.location Education
+									%hr.divider
+									
+									%form.form-horizontal.form-l{:role => "form"}
+										.form-group.forms
+											%label.col-lg-4.col-md-4.col-sm-4.hidden-xs.profile-lable{:for => "school"} Name of School
+											.col-lg-7.col-md-8.col-sm-8.col-xs-12
+												%input#school.forms-control.no-radius.input-mob{:type => "text", 'placeholder'=>'Name of Shool'}
+
+										.form-group.forms
+											%label.col-lg-4.col-md-4.col-sm-4.hidden-xs.profile-lable{:for => "study"} Field of Study
+											.col-lg-7.col-md-8.col-sm-8.col-xs-12
+												%input#study.forms-control.no-radius.input-mob{:type => "text", 'placeholder'=>'Field of Study'}
+
+										.form-group.forms
+											%label.col-lg-4.col-md-4.col-sm-4.hidden-xs.profile-lable{:for => "degree"} Degree
+											.col-lg-7.col-md-8.col-sm-8.col-xs-12
+												%input#degree.forms-control.no-radius.input-mob{:type => "text", 'placeholder'=>'Degree'}
+
+										.mob-chakbox
+
+											.form-group.forms
+												%label.col-lg-4.col-md-4.col-sm-4.col-xs-12.profile-lable{:for => "graduation"} Graduation Date
+												.col-lg-8.col-md-8.col-sm-8
+													%select#graduation.select-style.select-style-mobile.forms-control.no-radius.input-mob
+														%option January
+														%option January
+														%option January
+											
+													%select#graduation.select-style.select-style-mobile.forms-control.no-radius.input-mob
+														%option 2008
+														%option 2008
+														%option 2008	
+					
+										.form-group.forms
+											%label.col-lg-4.col-md-4.col-sm-4.hidden-xs.profile-lable{:for => "locationCity"} Location City
+											.col-lg-7.col-md-8.col-sm-8.col-xs-12
+												%input#locationCity.forms-control.no-radius.input-mob{:type => "text", 'placeholder'=>'Location City'}
+							
+										.form-group.forms
+											%label.col-lg-4.col-md-4.col-sm-4.hidden-xs.profile-lable{:for => "location-stat"} Location State
+											.col-lg-7.col-md-8.col-sm-8.col-xs-12
+												%select#location-stat.forms-control.no-radius.select-size.input-mob.select-style
+													%option CA
+													%option CA
+													%option CA
+
+							.row
+								.col-lg-12.col-md-12.col-sm-12.col-xs-11.btn-save-box
+									%button.profile-btn.save.save-mob.profile-btn-mob Save
+									%button.profile-btn.save.profile-btn-mob Add Other Education
+								.col-lg-12.col-md-12.col-sm-12.col-xs-1
+									%button.closed
+
+
+
+						-#SLILLS
+						.col-lg-10.col-md-10.col-sm-10.col-xs-12.col-lg-offset-1.col-md-offset-1.col-sm-offset-1.main-box
+							.row
+								.col-lg-8.col-lg-offset-2.col-md-8.col-md-offset-2.col-sm-12.col-xs-12
+									%h2.location Skills
+									%hr.divider
+									
+									%form.form-horizontal.form-l{:role => "form"}
+										.form-group.forms
+											%label.col-lg-4.col-md-4.col-sm-4.hidden-xs.profile-lable{:for => "skill1"} Enter Skill
+											.col-lg-7.col-md-8.col-sm-8.col-xs-12
+												%input#skill1.forms-control.no-radius.input-mob{:type => "text", 'placeholder'=>'Enter Skill'}
+
+										.form-group.forms
+											%label.col-lg-4.col-md-4.col-sm-4.hidden-xs.profile-lable{:for => "skill2"} Enter Skill
+											.col-lg-7.col-md-8.col-sm-8.col-xs-12
+												%input#skill2.forms-control.no-radius.input-mob{:type => "text", 'placeholder'=>'Enter Skill'}
+
+										.form-group.forms
+											%label.col-lg-4.col-md-4.col-sm-4.hidden-xs.profile-lable{:for => "skill3"} Enter Skill
+											.col-lg-7.col-md-8.col-sm-8.col-xs-12
+												%input#skill3.forms-control.no-radius.input-mob{:type => "text", 'placeholder'=>'Enter Skill'}
+
+							.row
+								.col-lg-12.col-md-12.col-sm-12.col-xs-11.btn-save-box
+									%button.profile-btn.save.save-mob.profile-btn-mob Save
+									%button.profile-btn.save.profile-btn-mob Add Other Skills
+									
+								.col-lg-12.col-md-12.col-sm-12.col-xs-1
+									%button.closed
+						
+						-#LOCATION AVAILABILITY
+						.col-lg-10.col-md-10.col-sm-10.col-xs-12.col-lg-offset-1.col-md-offset-1.col-sm-offset-1.main-box
+							.row
+								.col-lg-8.col-lg-offset-2.col-md-8.col-md-offset-2.col-sm-12.col-xs-12
+									%h2.location Availability
+									%hr.divider
+
+							.row
+								.col-lg-8.col-lg-offset-2.col-md-8.col-md-offset-2.col-sm-12.col-xs-12
+									%form.form-horizontal.form-l{:role => "form"}
+										.travel-style-mob
+											.form-group.forms
+												%label.avail-style.col-lg-5.col-md-5.col-sm-5.col-xs-12.profile-lable.avail-style-mob{:for => "opportunities"} Open to new opportunities?
+												
+												.col-lg-7.col-md-7.col-sm-7.col-xs-12.avail-style-mob
+													.radio.lbl-variant-push
+														
+														%input#avail.input-variant{:name => "gender", :type => "radio", :value => "male"}
+														%label.lbl-variant{:for => "avail"} Yes
+														%input#availS.input-variant{:name => "gender", :type => "radio", :value => "female"}
+														%label.lbl-variant{:for => "availS"} No
+										.travel-style-mob					
+											.form-group.forms
+												%label.avail-style.col-lg-5.col-md-5.col-sm-5.col-xs-12.profile-lable.avail-style-mob Your availabiliti for work:
+												.col-lg-7.col-md-7.col-sm-7.col-xs-12
+													.col-lg-6.col-md-6.col-sm-3.col-xs-6
+
+														.checkbox
+															%input#Full-Time.inpt-color{:name => "check", :type => "checkbox", :value => "check1"}
+															%label.lbl-color{:for => "Full-Time"}  Full-Time
+														.checkbox
+															%input#Internship.inpt-color{:name => "check", :type => "checkbox", :value => "check2"}
+															%label.lbl-color{:for => "Internship"} Internship
+
+														.checkbox
+															%input#Part-Time.inpt-color{:name => "check", :type => "checkbox", :value => "6"}
+															%label.lbl-color{:for => "Part-Time"}  Part-Time
+													.col-lg-6.col-md-6.col-sm-3.col-xs-6
+														.checkbox
+															%input#Temporary.inpt-color{:name => "check", :type => "checkbox", :value => "check4"}
+															%label.lbl-color{:for => "Temporary"} Temporary
+
+														.checkbox
+															%input#contract.inpt-color{:name => "check", :type => "checkbox", :value => "check5"}
+															%label.lbl-color{:for => "contract"}  Contract
+													
+
+							.row
+								.col-lg-12.col-md-12.col-sm-12.col-xs-11.btn-save-box
+									%button.profile-btn.save.save-mob.profile-btn-mob Save
+								.col-lg-12.col-md-12.col-sm-12.col-xs-1
+									%button.closed
+
+
+						-#TRAVEL PREFERENS
+						.col-lg-10.col-md-10.col-sm-10.col-xs-12.col-lg-offset-1.col-md-offset-1.col-sm-offset-1.main-box
+							.row
+								.col-lg-8.col-lg-offset-2.col-md-8.col-md-offset-2.col-sm-12.col-xs-12
+									%h2.location Travel Preference
+									%hr.divider.hidden-xs
+									%form.form-horizontal.form-l{:role => "form"}
+										.travel-style-mob
+											.form-group.forms
+												%label.col-lg-4.col-md-4.col-sm-4.hidden-xs.profile-lable{:for => "uploadResume"} Upload Your Resume
+
+												%label.hidden-lg.hidden-md.hidden-sm.col-xs-12.profile-lable.center Percentage willing to trevel:
+
+												.col-lg-8.col-md-8.col-sm-8.col-xs-12
+													.col-lg-6.col-md-6.col-sm-10.col-xs-12.center
+														.radio.profile-chack	
+															%input#pr5.input-variant{:name => "gender", :type => "radio", :value => "male"}
+															%label.lbl-variant.lbl-variant-mob{:for => "pr5"} Yes 0 - 5%
+
+														.radio.profile-chack
+															%input#pr10.input-variant{:name => "gender", :type => "radio", :value => "female"}
+															%label.lbl-variant.lbl-variant-mob{:for => "pr10"} Yes Up to 10%
+
+														.radio.profile-chack
+															%input#pr25.input-variant{:name => "gender", :type => "radio", :value => "male"}
+															%label.lbl-variant.lbl-variant-mob{:for => "pr25"} Yes Up to 25%
+
+													.col-lg-6.col-md-6.col-sm-10.col-xs-12.center
+
+														.radio.profile-chack
+															%input#pr50.input-variant{:name => "gender", :type => "radio", :value => "female"}
+															%label.lbl-variant.lbl-variant-mob{:for => "pr50"} Yes Up to 50%
+
+														.radio.profile-chack
+															%input#pr75.input-variant{:name => "gender", :type => "radio", :value => "male"}
+															%label.lbl-variant.lbl-variant-mob{:for => "pr75"} Yes Up to 75%
+															
+														.radio.profile-chack
+															%input#pr100.input-variant{:name => "gender", :type => "radio", :value => "female"}
+															%label.lbl-variant.lbl-variant-mob{:for => "pr100"} Yes Up to 100%
+											
+											.row
+												.col-lg-12.col-md-12.col-sm-12.col-xs-11.btn-save-box
+													%button.profile-btn.save.save-mob.profile-btn-mob Save
+												.col-lg-12.col-md-12.col-sm-12.col-xs-1
+													%button.closed
+	
+							
+
+						-#FLUENT LANGUAGE
+						.col-lg-10.col-md-10.col-sm-10.col-xs-12.col-lg-offset-1.col-md-offset-1.col-sm-offset-1.main-box
+							.row
+								.col-lg-8.col-lg-offset-2.col-md-8.col-md-offset-2.col-sm-12.col-xs-12
+									%h2.location Fluent Languages
+									%hr.divider
+							.row
+								.col-lg-8.col-lg-offset-2.col-md-8.col-md-offset-2.col-sm-12.col-xs-12
+									%form.forms-horizontal{:role => "form"}
+										.form-group.forms
+											%label.col-lg-4.col-md-4.col-sm-4.hidden-xs.profile-lable{:for => "language"} Select Language
+											.col-lg-7.col-md-8.col-sm-8.col-xs-12
+												%select#language.forms-control.no-radius.select-size-lang.input-mob.select-style
+													%option English
+													%option Spanish
+
+													%option English
+								.hidden-lg.hidden-sm.hidden-md.col-xs-12
+									%form.forms-horizontal{:role => "form"}
+										.form-group.forms
+											%label.col-lg-4.col-md-4.col-sm-4.hidden-xs.profile-lable{:for => "language"} Select Language
+											.col-lg-7.col-md-8.col-sm-8.col-xs-12
+												%select#language.forms-control.no-radius.select-size-lang.input-mob.select-style
+													%option English
+													%option Spanish
+													%option English
+							.row.style-top
+								.col-lg-12.col-md-12.col-sm-12.col-xs-11.btn-save-box
+									%button.profile-btn.save.save-mob.profile-btn-mob Save
+									%button.profile-btn.save.profile-btn-mob Add Other Language
+								.col-lg-12.col-md-12.col-sm-12.col-xs-1
+									%button.closed
+						
+
+						-#REZUME
+						.col-lg-10.col-md-10.col-sm-10.col-xs-12.col-lg-offset-1.col-md-offset-1.col-sm-offset-1.main-box
+							.row
+								.col-lg-8.col-lg-offset-2.col-md-8.col-md-offset-2.col-sm-12.col-xs-12
+									%h2.location Rezume
+									%hr.divider
+
+									%form.form-horizontal{:role => "form"}
+										.form-group.forms
+											%label.col-lg-5.col-md-5.col-sm-5.hidden-xs.profile-lable{:for => "uploadResume"} Upload Your Resume
+											.col-lg-7.col-md-7.col-sm-7
+												%button.up-rezume.hidden-lg.hidden-md.hidden-sm Upload Rezume
+												%button#uploadResume.resume-btn.big-resume-btn.no-radius.hidden-xs Drop here or Clik to Brouzer
+
+									
+										.form-group.forms
+											.col-xs-12
+												%button.progress-mobi.hidden-lg.hidden-md.hidden-sm Upload Status
+											%label.col-lg-5.col-md-5.col-sm-5.profile-lable.hidden-xs{:for => "status"} Upload Status
+											.col-lg-7.col-md-7.col-sm-7.col-xs-12
+												.progress.progress-height.progress-bar-mobi.hidden-xs
+													#status.hidden-xs.progress-bar.progress-bar-bg{"aria-valuemax" => "100", "aria-valuemin" => "0", "aria-valuenow" => "20", :role => "progressbar", :style => "width: 20%"}
+
+														%span.sr-only 20% Complete (success)
+
+
+
+										.form-group.forms
+											%label.col-lg-5.col-md-5.col-sm-5.hidden-xs.profile-lable{:for => "resume"} Name Your Resume
+											.col-lg-7.col-md-7.col-sm-7.col-xs-12
+												%input#resume.forms-control.no-radius.input-mob{:type => "text", 'placeholder'=>'Name Your Resume'}
+
+
+							.row
+								.col-lg-12.col-md-12.col-sm-12.col-xs-11.btn-save-box
+									%button.profile-btn.save Save Resume
+									%button.uploud-mob.upload Upload Another Resume
+									%p.note-style Note: You can upload up to three resumes
+								.col-lg-12.col-md-12.col-sm-12.col-xs-1
+									%button.closed
+
+						-#FOOTER MENU
+						
+						.col-lg-10.col-md-10.col-sm-10.col-xs-12.col-lg-offset-1.col-md-offset-1.col-sm-offset-1
+							.row.footer
+								%ul
+									%li.menu.menu-left
+										%a.menu-link{'href'=>'#', 'alt'=>'home'} home
+									%li.menu.menu-left
+										%a.menu-link{'href'=>'#', 'alt'=>'for buissness'} for Buissness
+									%li.menu.menu-left
+										%a.menu-link{'href'=>'#', 'alt'=>'about us'} About Us
+									%li.menu.menu-right
+										%a.menu-link{'href'=>'#', 'alt'=>'help'} Help
+									%li.menu.menu-right
+										%a.menu-link{'href'=>'#', 'alt'=>'press'} Press
+									%li.menu.hidden-xs
+										%a.menu-link{'href'=>'#', 'alt'=>'privacy'} Privacy
+									%li.menu.menu-right
+										%a.menu-link{'href'=>'#', 'alt'=>'contact us'} Contact Us
