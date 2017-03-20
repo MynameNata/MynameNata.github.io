@@ -79,7 +79,9 @@
 		padding-top: 40px;
 		margin-bottom: 30px;
 	}
-
+	.checkbox-mob {
+		text-align: left;
+	}
 	.profile-icon{
 		width: 186px;
 		height: 190px;
