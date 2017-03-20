@@ -118,7 +118,7 @@
 		width: 40%;
 	}
 	.input-variant[type=radio]:checked + label:before {
-    line-height: 13px;
+    line-height: 12px;
 
 }
 
