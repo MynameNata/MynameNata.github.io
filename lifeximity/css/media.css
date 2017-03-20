@@ -117,7 +117,11 @@
 	.locations-drop {
 		width: 40%;
 	}
-	
+	.input-variant[type=radio]:checked + label:before {
+    line-height: 13px;
+
+}
+
 	
 	.lbl-variant:before {
 		bottom: 3px;
