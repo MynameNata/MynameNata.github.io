@@ -1,0 +1,354 @@
+/*basis*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Verdana, sans-serif;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+/*===================================*/
+/*Layout*/
+
+/*box-1225px*/
+.main-header,
+.main-content,
+.main-footer{
+	width: 1224px;
+	margin:  0 auto;
+}
+
+/*box-960px*/
+.header,
+.content,
+.footer{
+	width: 78.43%;
+	margin:  0 auto;
+	padding: 0 10px;
+	box-sizing: border-box;
+}
+
+.logo {
+	width: 20%;
+}
+.menu {
+	width: 80%;
+}
+
+.box-info{
+	box-sizing: border-box;
+	width: 33.33%;
+	display: inline-block;
+	float: left;
+	padding: 5px 10px;
+	transition: 2s, ease 0s;
+	transform: translate( 0, 0);
+}
+
+/*=============================================*/
+
+
+/*slider*/
+
+.slider{
+	position: relative;
+	overflow: hidden;
+	height: 485px;
+	width: 100%;
+	margin-bottom: -70px;
+	border: 10px solid rgba(231, 231, 231, 0.3);
+	background-clip: padding-box;
+	
+}
+.slide{
+	height: 485px;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	box-sizing: border-box;
+
+	animation-name: slid;
+	animation-duration: 10s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+
+
+@keyframes slid {
+	from {
+		top: 0;
+		left: 0;
+	}
+	
+	12.5% { transform: translate(0px, 0px);}
+	25% { transform: translate(-100%, 0px);}
+	36% { transform: translate(-100%, 485px);}
+	37% { transform: translate(100%, 485px);}
+	87.5% { transform: translate(100%, 0px);}
+
+	to {transform: translate(0px, 0px);}
+}
+
+.b-size {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+}
+.slide1{
+	background-image: url(../img/slide4.png);
+	animation-delay: 7.5s;
+}
+.slide2{
+	background-image: url(../img/slide2.png);
+	animation-delay: 5s;
+}
+.slide3{
+	background-image: url(../img/slide3.png);
+	animation-delay: 2.5s;
+}
+.slide4{
+	background-image: url(../img/slide1.png);
+	animation-delay: 0s;
+}
+
+
+/*================================================*/
+
+
+
+/*layout-style*/
+.main-header{
+	background: url(../img/bg-header.png);
+	border-top: 10px solid #3b3b3b;
+	border-bottom: 10px solid #3b3b3b;
+	box-shadow: inset 0 15px 0 0 rgba(204, 73, 73, 0.5), inset 0 -15px 0 0 rgba(204, 73, 73, 0.5) ;
+}
+.main-content{
+	padding-top: 130px;
+	border-top: rgba(231, 231, 231, 0.2) solid 10px;
+}
+/*===================================================*/
+
+/*header-style*/
+
+/*logo*/
+.logo-link{
+	display: inline-block;
+	width: 173px;
+	height: 49px;
+	background-image: url(../img/logo-head.png);
+	background-repeat: no-repeat;
+}
+/*====================================================*/
+
+/*menu*/
+.dropdown{
+		display: none;
+	}
+.menu{
+	text-align: right;
+	float: right;	
+}
+.menu-item{
+	display: inline;
+}
+.menu-link{
+	font-weight: bold;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-size: 13.33px;
+	color: #ffffff;
+	margin-left: 30px;
+	transition: 1s, ease 0s;
+}
+.menu-link:hover {
+	color: #3b3b3b;
+}
+.menu-link:active {
+	color: #3b3b3b;
+}
+
+.logo,
+.menu{
+	display: inline-block;
+	margin-top: 60px;
+	margin-bottom: 70px;
+}
+/*=====================================*/
+
+/*main-content-style*/
+
+.quote{
+	text-align: center;
+	font-size: 20pt;
+	font-weight: bold;
+	color: #3b3b3b;
+	line-height: 1.2;
+	word-spacing: 2px;
+	text-shadow: 3px 3px 0 #bebdbd;
+}
+.bnt-red{
+	display: block;
+	margin: 60px auto;
+	width: 260px;
+	height: 60px;
+	border: 8px solid #f5f0e9;
+	border-radius: 30px;
+	background: url(../img/red-btn.png);
+	color: #ffffff;
+	text-shadow: 1px 1px 0 #b13a32;
+	font-size: 20px;
+	padding: 10px 30px;
+	outline: none;
+    transition: 0.5s, ease;
+}
+.bnt-red:hover{
+	width: 270px;
+	height: 70px;
+	font-size: 22px;
+    transition: 0.5s, ease;
+
+}
+.bnt-red:active{
+	border: 8px solid #867f7f;
+}
+.content-icon{
+	display: block;
+	height: 135px;
+	border: 8px solid #e7e7e7;
+	box-sizing: border-box;
+	text-align: center;
+	padding-top: 35px;
+}
+.content-icon:hover,
+.f-icon:hover,
+.f-link:hover{
+	opacity: 0.8;
+}
+
+/*Use backgroud-image because is unknown font-family.
+Використано backgroud-image в зв'язку з відсутністю font-family*/
+
+.first-icon{
+	background-image: url(../img/bg-first-icon.png);	
+}
+.second-icon{
+	background: url(../img/bg-second-icon.png);	
+}
+.last-icon{
+	background-image: url(../img/bg-last-icon.png);	
+}
+/*======================================*/
+.content-text{
+	font-size: 13px;
+	font-family: Verdana sans-serif;
+	line-height: 1.9;
+	letter-spacing: 1px;
+	color: #555555;
+}
+.text-box{
+	height: 270px;
+	overflow: hidden;
+	padding-bottom: 5px;
+}
+.content-title{
+	color: #373737;
+	font-size: 14pt;
+	font-weight: bold;
+}
+.read{
+	float: right;
+	padding: 15px;
+	color: #f95959;
+	font-size: 11px;
+	font-weight: bold;
+	text-transform: uppercase;
+	transition: 1s, ease, 0s;
+	margin-bottom: 60px;
+}
+.read:hover{
+	color: #c95753;
+	text-shadow: 1px 1px 0 #b13a32;
+}
+
+/*==============================================*/
+
+/*.footer-style*/
+.footer,
+.content{
+	overflow: hidden;
+}
+.main-footer {
+	box-sizing: border-box;
+	background: #3b3b3b;
+	border-top: 9px solid;
+	border-image: url(../img/footer-border.png) 9 1 1 1 round;
+}
+
+.footer-color{
+	color: #ffffff;
+	font-size: 13px;
+}
+.footer-title{
+	font-size: 20px;
+	font-weight: bold;
+}
+.footer-cursive{
+	font-style: italic;
+	line-height: 1.2;
+	margin: 0;
+}
+.f-link{
+	color: #ec5757;
+}
+.f-statistic{
+	color: #8d8d8d;
+	margin-bottom: 30px;
+}
+.f-line {
+	margin: 0;
+	line-height: 1.7;
+}
+.f-title-size{
+	width: 70%;
+	display: inline-block;
+	overflow: hidden;
+	height: 150px;
+	padding: 0 0 5px 8px;
+	box-sizing: border-box;
+}
+.f-size-icon{
+	width: 30%;
+	float: left;
+}
+.f-size-box{
+	overflow: hidden;
+	height: 170px;
+	padding-bottom: 5px;
+}
+.f-comments{
+	color: #8d8d8d;
+	font-size: 11px;
+	margin-bottom: 30px;
+}
+.f-logo{
+	margin: 35px 0 15px 0;
+	display: block;
+	width: 173px;
+	height: 49px;
+	background-image: url(../img/footer-logo.png);
+}
+.f-icon{
+	display: inline-block;
+	width: 73px;
+	height: 74px;
+	background-image: url(../img/footer-icon.png);
+	border: 5px solid #4d4d4d;
+}
+/*========================================================*/
