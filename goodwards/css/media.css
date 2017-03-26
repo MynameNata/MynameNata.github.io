@@ -197,7 +197,7 @@
 }
 /*=========================================================================*/
 
-@media screen and (min-width: 500px) and (max-width: 769px){
+/*@media screen and (min-width: 500px) and (max-width: 769px){
 /*basis (min-width: 500px)*/
 	.main-header,
 	.main-content,
@@ -408,10 +408,10 @@
 		padding-right: 20px;
 		height: 150px;
 	}	
-}
+}*/
 
 /*===================================================================*/
-@media screen and (min-width: 320px) and (max-width: 500px){
+@media screen and (min-width: 320px) and (max-width: 769px){
 /*basis (min-width: 320px)*/
 	.main-header,
 	.main-content,
