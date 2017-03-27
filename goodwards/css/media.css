@@ -298,19 +298,19 @@
 	}
 
 	.slide1{
-		background-image: url(../img/slide4-m.png);
+		background-image: url(../img/slide4-mb.png);
 		animation-delay: 7.5s;
 	}
 	.slide2{
-		background-image: url(../img/slide2-m.png);
+		background-image: url(../img/slide2-mb.png);
 		animation-delay: 5s;
 	}
 	.slide3{
-		background-image: url(../img/slide3-m.png);
+		background-image: url(../img/slide3-mb.png);
 		animation-delay: 2.5s;
 	}
 	.slide4{
-		background-image: url(../img/slide1-m.png);
+		background-image: url(../img/slide1-mb.png);
 		animation-delay: 0s;
 	}
 	
