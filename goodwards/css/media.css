@@ -541,12 +541,10 @@
 		height: 165px;
 		display: inline-block;
 		float: right;
-		padding: 0 20px;
+		padding: 0 20px 8px 20px;
 		box-sizing: border-box;
 	}
-	.content-text{
-		padding-bottom: 5px;
-	}
+	
 
 	.read{
 		width: 100%;
