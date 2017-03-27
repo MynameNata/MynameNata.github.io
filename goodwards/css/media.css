@@ -293,8 +293,10 @@
 		transform: translate(10%, 0, -10%, 0);
 		border-left: none;
 		border-right: none;
-		height: 200px;
 		margin-bottom: 0;
+	}
+	.slide{
+		height: 350px;
 	}
 
 	.slide1{
@@ -493,15 +495,17 @@
 /*slider*/
 
 	.slider{
+		height: 162px;
 		box-sizing: border-box;
 		transition: 2s, ease 0s;
 		transform: translate(10%, 0, -10%, 0);
 		border-left: none;
-		border-right: none;
-		height: 200px;
+		border-right: none;	
 		margin-bottom: 0;
 	}
-
+	.slide {
+		height: 189px;
+	}
 	.slide1{
 		background-image: url(../img/slide4-mb.png);
 		animation-delay: 7.5s;
