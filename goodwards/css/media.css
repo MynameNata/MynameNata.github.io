@@ -495,7 +495,6 @@
 /*slider*/
 
 	.slider{
-		height: 162px;
 		box-sizing: border-box;
 		transition: 2s, ease 0s;
 		transform: translate(10%, 0, -10%, 0);
@@ -504,7 +503,7 @@
 		margin-bottom: 0;
 	}
 	.slide {
-		height: 189px;
+		height: 200px;
 	}
 	.slide1{
 		background-image: url(../img/slide4-mb.png);
