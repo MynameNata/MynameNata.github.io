@@ -205,19 +205,27 @@ a:hover {
 .page {
 	margin: 0 3px;
 	display: inline-block;
-	width: 12px;
-	height: 12px;
-	background: #9c9c9c;
+	border: 1px solid #ffffff;
+	width: 25px;
+	height: 25px;
+	padding: 3px 0;
+	background:  grey;
 	border-radius:15px;
+	font-size: 13px;
+	font-weight: bold;
+	color: #ffffff;
 }
 .page:hover {
 	background: #9e9b00;
+	color:  #ffffff;
 }
 .page:active {
-	background: #9e9b00;
+	background: #ffffff;
 }
 .page:visited {
-	background: white;
+	color: grey;
+	background: #ffffff;
+	border: 1px solid grey;
 }
 
 /*footer*/
