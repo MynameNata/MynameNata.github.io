@@ -1,0 +1,18 @@
+footer {
+   grid-column: 1 / 5;
+   grid-row: 5 / 6;
+   background: #000000;
+   padding: 20px 0;
+   text-align: center;
+}
+
+
+.sprite {
+   display: inline-block;
+	background: url('../img/sprite-footer.png') no-repeat top left;
+} 
+.sprite.html { background-position: 0px 0px; width: 80px; height: 80px;  } 
+.sprite.css { background-position: -110px 0px; width: 80px; height: 80px;  } 
+.sprite.js { background-position: -220px 0px; width: 80px; height: 80px;  } 
+.sprite.faq { background-position: -330px 0px; width: 82px; height: 80px;  } 
+.sprite.all { background-position: -442px 0px; width: 80px; height: 80px;  } 

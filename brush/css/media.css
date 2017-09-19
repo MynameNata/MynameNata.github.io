@@ -31,6 +31,9 @@
 }
 
 @media screen and (max-width: 992px){
+	.sidebar {
+		text-align: center;
+	}
 	.picture {
 		text-align: center;
 	}
@@ -42,6 +45,7 @@
 	.forms_head-text {
 		font-size: 16pt;
 	}
+	.forms_left,
 	.forms_left_btn {
 		width: 100%;
 	}

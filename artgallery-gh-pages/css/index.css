@@ -1,0 +1,110 @@
+body {
+   max-width: 1200px;
+   margin: 0 auto;
+   font-family: Helvetica, sans-serif;
+}
+.bg-black {
+    background-color: #000000;
+}
+.color-black {
+    color: #000000;
+}
+.color-orange {
+    color: #fec63d;
+}
+.color-white {
+    color: #ffffff;
+}
+.yellow-btn {
+    width: 300px;
+    height: 50px;
+    display: inline-block;
+    background-color: #fec63d;
+    color: #ffffff;
+    border-bottom: 5px solid rgba(170, 170, 170, .4);
+    outline: none;
+    font-size: 30px;
+    text-transform: capitalize;
+    transition: 0.5s ease-in-out;
+}
+.yellow-btn:hover {
+    opacity: .7;
+}
+header li,
+article li,
+footer li {
+    display: inline-block;
+}
+article h1{
+    font-size: 35px;
+    text-align: center;
+}
+article h2 {
+    text-align: center;
+	font-size: 30px;
+	margin-bottom: 50px;
+}
+.bg-style {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slideshow-container {
+    width: 100%;
+    min-height: 700px;
+    display: flex;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    position: relative;
+    margin: auto;
+}
+.mySlides {
+    display: none;
+}
+.picture {
+    width: 512px;
+    height: 700px;
+    display: inline-block;
+}
+.picture-first {
+    background-image: url('../img/times-square.jpg');
+}
+.picture-second {
+    background-image: url('../img/ny-street.jpg');
+}
+.picture-last {
+    background-image: url('../img/singapore.jpg');
+    width: 600px;
+    height: 377px;
+}
+.fade {
+  animation-duration: 3.5s;
+  animation-name: fade;
+  animation-timing-function: ease-in-out;
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@media (max-width: 620px) {
+    body,
+    article {
+        max-width: 620px;
+    }
+    ul, nav, div {
+        display: inline-block;
+    }
+    .slideshow-container {
+        max-width: 620px;
+    }
+   .picture-first,
+   .picture-second,
+   .picture-last {
+       max-width: 320px;
+   }
+    article h2 {
+    	font-size: 26px;
+    	line-height: 1.3;
+    }
+}

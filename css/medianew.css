@@ -1,18 +1,25 @@
 @media screen and (min-width: 240px) and (max-width: 768px){
-	body {
-		padding: 20px 0 0 0;
-		background-image: url(../img/bg-xs.png);
+	body:before {
+		content: " ";
+		height: 100vh;
+		width: 100vw;
+		position: fixed;
+		z-index: -1;
+	    background-image: url(../img/big-bg.png);
+	    background-repeat: no-repeat;
+	    background-position: center center;
+	    background-size: cover;
 	}
 	.container,	
 	.container>.row>.col-xs-12,
 	.main>.content {
-		padding-left: 0 !important;
-		padding-right: 0 !important;
+		padding-left: 0;
+		padding-right: 0;
 	}
 	.container>.row,
 	.content>.row {
-		margin-right: 0 !important;
-		margin-left: 0 !important;
+		margin-right: 0;
+		margin-left: 0;
 	}
 	.portfolio {
 		overflow: hidden;
@@ -21,7 +28,6 @@
 		border-right: 3px solid grey;
 		border-left: 3px solid grey;
 	}
-	
 	.sidebar-btn {
 		width: 100%;
 		font-size: 11pt;
@@ -31,10 +37,6 @@
 		text-align: center;
 		display: block;
 		height: 44px;
-	}
-	.sidebar-btn:hover {
-		opacity: 0.8;
-		color: white;
 	}
 	.sidebar-btn:first-child {
 		margin: 0;
@@ -64,9 +66,6 @@
 }
 
 @media screen and (min-width: 769px) and (max-width: 992px){
-	body {
-		padding: 5%;
-	}
 	.content {
 		padding: none;
 	}
@@ -86,10 +85,6 @@
 		display: inline-block;
 		width: 33.33%;
 		height: 44px;
-	}
-	.sidebar-btn:hover {
-		opacity: 0.8;
-		color: white;
 	}
 	.sidebar-btn:first-child {
 		margin: 0;
@@ -115,19 +110,14 @@
 	}
 }
 @media screen and (min-width: 993px) and (max-width: 1201px){
-	body {
-		padding: 5%;
-	}
-	
 	.sidebar {
 		overflow: hidden;
-		float:  right !important;
+		float: right;
 		display: inline-block;
 	}
 	.content {
 		vertical-align: middle;
 		display: inline-block;
-		min-height: 900px;
 	}
 	.portfolio {
 		overflow: hidden;
@@ -139,25 +129,15 @@
 		width: 33.33%;
 		height: 80px;
 		display: inline-block;
-
 		padding: 30px 10px;
 		border-radius:25px 25px 0 0;
-		-webkit-border-radius:25px 25px 0 0;
-		-o-border-radius:25px 25px 0 0;
-		-ms-border-radius:25px 25px 0 0;
 		border-left: 3px solid grey;
 		border-right: 3px solid grey;
 		border-top: 3px solid grey;
-
 		font-size: 12pt;
 		font-weight: bold;
 		color: white;
 		text-align: center;
-	}
-	
-	.sidebar-btn:hover {
-		opacity: 0.8;
-		color: white;
 	}
 	.btn-portfolio {
 		float: left;
@@ -181,9 +161,6 @@
 }
 
 @media screen and (min-width: 1202px) {
-	body {
-		padding: 5%;					
-	}
 	.portfolio {
 		overflow: hidden;
 	}
@@ -196,12 +173,7 @@
 		color: white;
 		height: 54px;
 		display: inline-block;
-		float: right !important;
-	}
-
-	.sidebar-btn:hover{
-		opacity: 0.8;
-		color: white;
+		float: right;
 	}
 	.btn-portfolio {
 		background-image: url(../img/portfolio-btn.png);
@@ -213,7 +185,5 @@
 	
 	.btn-contact {
 		background-image: url(../img/contact-btn.png);
-	}
-	
-	
+	}	
 }
