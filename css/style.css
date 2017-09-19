@@ -219,9 +219,7 @@ a:hover {
 	background: #9e9b00;
 	color:  #ffffff;
 }
-.page:active {
-	background: #ffffff;
-}
+
 .page:visited {
 	color: grey;
 	background: #ffffff;
